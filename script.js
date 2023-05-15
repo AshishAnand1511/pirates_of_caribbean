@@ -7,7 +7,7 @@ function init() {
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
-  }); 
+  });
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
   locoScroll.on("scroll", ScrollTrigger.update);
 
@@ -934,23 +934,161 @@ gsap.to("#p19slider", {
   },
 });
 
-
 // ----------------page20 animation---------------
 var p202 = document.querySelector("#p202");
 var bullet = document.querySelector("#bullet");
 
 p202.addEventListener("click", () => {
   gsap.to("#bullet", {
-    x:600,
-  })
+    x: 600,
+  });
+});
+
+// ----------------page21 animation---------------
+var p211 = document.querySelector("#p211>img");
+p211.addEventListener("mousemove", () => {
+  p211.style.rotate = "270deg";
+});
+p211.addEventListener("mouseleave", () => {
+  p211.style.rotate = "90deg";
+});
+
+// ----------------page23 animation---------------
+
+var p231 = document.querySelector("#p231");
+var p231h4 = document.querySelector("#p231>h4");
+var p231p = document.querySelector("#p231>p");
+var p231i = document.querySelector("#p231>i");
+var p231f = 0;
+
+p231.addEventListener("click", () => {
+if (p231f == 0) {
+    p231h4.style.opacity = ".5";
+    p231p.style.marginBottom = "2vw";
+    p231i.style.rotate = "45deg";
+    p231f =1
+  }
+  else{
+  p231h4.style.opacity = "0";
+  p231p.style.marginBottom = "0vw";
+    p231i.style.rotate = "0deg";
+    p231f =0
+}
+});
+
+var p232 = document.querySelector("#p232");
+var p232h4 = document.querySelector("#p232>h4");
+var p232p = document.querySelector("#p232>p");
+var p232i = document.querySelector("#p232>i");
+var p232f = 0;
+
+p232.addEventListener("click", () => {
+if (p232f == 0) {
+    p232h4.style.opacity = ".5";
+    p232p.style.marginBottom = "3vw";
+    p232i.style.rotate = "45deg";
+    p232f =1
+  }
+  else{
+  p232h4.style.opacity = "0";
+  p232p.style.marginBottom = "0vw";
+    p232i.style.rotate = "0deg";
+    p232f =0
+}
+});
+
+var p233 = document.querySelector("#p233");
+var p233h4 = document.querySelector("#p233>h4");
+var p233p = document.querySelector("#p233>p");
+var p233i = document.querySelector("#p233>i");
+var p233f = 0;
+
+p233.addEventListener("click", () => {
+if (p233f == 0) {
+    p233h4.style.opacity = ".5";
+    p233p.style.marginBottom = "2vw";
+    p233i.style.rotate = "45deg";
+    p233f =1
+  }
+  else{
+  p233h4.style.opacity = "0";
+  p233p.style.marginBottom = "0vw";
+    p233i.style.rotate = "0deg";
+    p233f =0
+}
+});
+
+var p234 = document.querySelector("#p234");
+var p234h4 = document.querySelector("#p234>h4");
+var p234p = document.querySelector("#p234>p");
+var p234i = document.querySelector("#p234>i");
+var p234f = 0;
+
+p234.addEventListener("click", () => {
+if (p234f == 0) {
+    p234h4.style.opacity = ".5";
+    p234p.style.marginBottom = "1vw";
+    p234i.style.rotate = "45deg";
+    p234f =1
+  }
+  else{
+  p234h4.style.opacity = "0";
+  p234p.style.marginBottom = "0vw";
+    p234i.style.rotate = "0deg";
+    p234f =0
+}
 });
 
 
-// ----------------page21 animation---------------
-var p211 = document.querySelector("#p211>img")
-p211.addEventListener("mousemove", () => {
-  p211.style.rotate = "270deg"
-})
-p211.addEventListener("mouseleave", () => {
-  p211.style.rotate = "90deg"
+var p235 = document.querySelector("#p235");
+var p235h4 = document.querySelector("#p235>h4");
+var p235p = document.querySelector("#p235>p");
+var p235i = document.querySelector("#p235>i");
+var p235f = 0;
+p235.addEventListener("click", () => {
+if (p235f == 0) {
+    p235h4.style.opacity = ".5";
+    p235p.style.marginBottom = "1vw";
+    p235i.style.rotate = "45deg";
+    p235f =1
+  }
+  else{
+  p235h4.style.opacity = "0";
+  p235p.style.marginBottom = "0vw";
+    p235i.style.rotate = "0deg";
+    p235f =0
+}
+});
+
+var p236 = document.querySelector("#p236");
+var p236h4 = document.querySelector("#p236>h4");
+var p236p = document.querySelector("#p236>p");
+var p236i = document.querySelector("#p236>i");
+var p236f = 0;
+p236.addEventListener("click", () => {
+if (p236f == 0) {
+    p236h4.style.opacity = ".5";
+    p236p.style.marginBottom = "1vw";
+    p236i.style.rotate = "45deg";
+    p236f =1
+  }
+  else{
+  p236h4.style.opacity = "0";
+  p236p.style.marginBottom = "0vw";
+    p236i.style.rotate = "0deg";
+    p236f =0
+}
+});
+
+// ----------------page24 animation---------------
+gsap.to("#p24parrot", {
+  rotate: "45deg",
+  scrollTrigger: {
+    scroller: "#main",
+    trigger: "#p24parrot",
+    // markers: true,
+    end: "top 10%",
+    start: "top 50%",
+    scrub:true
+  }
 })
