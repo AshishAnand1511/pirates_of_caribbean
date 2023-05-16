@@ -42,6 +42,22 @@ init();
 
 // ----------------loading animation---------------
 var count = document.querySelector("#loading>h1");
+function updateProgress() {
+  var progressBar = document.getElementById('progress');
+  var width = 0;
+  var interval = setInterval(frame, 15);
+  
+  function frame() {
+    if (width >= 100) {
+      clearInterval(interval);
+    } else {
+      width++;
+      progressBar.style.width = width + '%';
+      progressBar.innerHTML = width + '%';
+    }
+  }
+}
+updateProgress();
 
 // ----------------nav animation---------------
 var nimg = document.querySelector("#nimg");

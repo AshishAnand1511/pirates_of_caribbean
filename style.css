@@ -106,12 +106,35 @@ body {
   background-position: center;
   height: 10vw;
   width: 10vw;
+  margin-bottom: 2vw;
   animation-name: loadinganime;
   animation-duration: 5s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
   transition: all linear 2s;
   animation-fill-mode: forwards;
+}
+#progress-bar {
+  width: 100%;
+  /* background-color: lightgray; */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#progress-bar span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 1vw;
+  font-family: font1;
+  font-size: 2vw;
+  background-color: #111;
+  color: #ad9d7f;
+
 }
 
 /* ----------------nav starts here-------------- */
