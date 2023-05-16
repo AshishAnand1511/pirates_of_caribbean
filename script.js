@@ -937,11 +937,28 @@ gsap.to("#p19slider", {
 // ----------------page20 animation---------------
 var p202 = document.querySelector("#p202");
 var bullet = document.querySelector("#bullet");
+var bullet2 = document.querySelector("#bullet2");
 
+var flag20 = 0;
 p202.addEventListener("click", () => {
-  gsap.to("#bullet", {
-    x: 600,
-  });
+  if (flag20 == 0) {
+    gsap.to("#bullet", {
+      x: 600,
+    });
+    gsap.to("#bullet2", {
+      x: 0,
+    });
+    flag20 = 1;
+  }
+  else {
+    gsap.to("#bullet2", {
+      x: 600,
+    });
+    gsap.to("#bullet", {
+      x:0,
+    });
+    flag20 = 0;
+  }
 });
 
 // ----------------page21 animation---------------

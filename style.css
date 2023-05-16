@@ -2943,6 +2943,17 @@ body {
   background-position: center;
   position: absolute;
 }
+#bullet2{
+  height: 2vh;
+  width: 7vh;
+  right: 34%;
+  z-index: 8;
+  top: 54%;
+  background-image: url(./p203.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
 
 /* ---------------------page21 starts here------------------ */
 #page21 {
@@ -3365,6 +3376,9 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+
+/* ---------------------page25 starts here------------------ */
 #page25{
   height: 90vh;
   width: 100vw;
