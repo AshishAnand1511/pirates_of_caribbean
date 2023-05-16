@@ -949,6 +949,16 @@ p202.addEventListener("click", () => {
       x: 0,
       duration:.001,
     });
+    gsap.fromTo("#p20gun", {
+      rotate:"-2deg"
+    }, {
+      rotate:"0deg"
+    })
+    gsap.fromTo("#p201", {
+      rotate:"20deg"
+    }, {
+      rotate:"0deg"
+    })
     flag20 = 1;
   }
   else {
@@ -959,6 +969,16 @@ p202.addEventListener("click", () => {
       x: 0,
       duration:.001,
     });
+    gsap.fromTo("#p20gun", {
+      rotate:"-2deg"
+    }, {
+      rotate:"0deg"
+    })
+    gsap.fromTo("#p201", {
+      rotate:"20deg"
+    }, {
+      rotate:"0deg"
+    })
     flag20 = 0;
   }
 });

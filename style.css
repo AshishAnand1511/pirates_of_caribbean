@@ -2892,7 +2892,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-#p20gun {
+#p20gun{
   height: 25vh;
   width: 30vw;
   z-index: 9;
@@ -2902,6 +2902,7 @@ body {
   bottom: 25%;
   left: 35%;
   scale: 1.2;
+  /* rotate: -4deg; */
   /* opacity: .6; */
   background-image: url(./p201.png);
 }
@@ -2924,7 +2925,7 @@ body {
   left: 41.5%;
   scale: 1;
   cursor: pointer;
-  bottom: 34%;
+  bottom: 33.5%;
   z-index: 99;
   /* rotate: 20deg; */
   transform-origin: 50% 50%;
