@@ -136,7 +136,130 @@ body {
   color: #ad9d7f;
 
 }
+#loading>h1{
+  font-family: font1;
+  opacity: .3;
+  font-size: 1.2vw;
+  line-height: 1;
+}
 
+/*---------------------------------hijack notification-------------------------- */
+#hijacked{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0vh;
+  left: 0;
+  transition: all linear 1s;
+  display:none;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000d1;
+  z-index: 999;
+}
+#hcard{
+  position: absolute;
+  height: 65vh;
+  width: 60vw;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  /* background-color: grey; */
+  background-image: url(hijack\ img.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes hcardb{
+  0%{
+    rotate: 10deg;
+  }
+  100%{
+    rotate:-10deg;
+  }
+}
+#hcard>img{
+  height: 50vh;
+  position: absolute;
+  left: -10%;
+  bottom: 0%;
+  transform-origin: center;
+  animation-name: hcardb;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+#hhright{
+  height: 80%;
+  width: 60%;
+  /* background-color: grey; */
+  padding: 5vh 0;
+  position: absolute;
+  right: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+#hhright>h1{
+  font-size: 1.5vw;
+  font-family: font2;
+}
+#hhright>p{
+  font-family: font4;
+}
+#hbottom{
+  display: flex;
+}
+#himage{
+  position: absolute;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(./p241.png);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  left: 15%;
+  bottom: 0%;
+  /* margin-right: 5vh; */
+  /* background-color: green; */
+}
+#himage>img{
+  position: absolute;
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+  background-color: #111;
+  padding: 1vw;
+  object-fit: cover;
+  object-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#hbright{
+  display: flex;
+  margin-left: 5vw;
+  gap: .5vw;
+  flex-direction: column;
+}
+#hbright a{
+  font-family: font2;
+  color: #111;
+  text-decoration: none;
+}
+#hiclose{
+  position: absolute;
+  right: 10vw;
+  top: 10vh;
+  font-size: 3vw;
+  cursor: pointer;
+}
 /* ----------------nav starts here-------------- */
 #nav {
   height: 42vh;
@@ -3475,6 +3598,10 @@ object-position: center;
   font-family: font2;
   cursor: pointer;
 }
+#p25rlnav>p>a{
+color: #111;
+text-decoration: none;
+}
 #p25rlimg{
   height: 20vh;
   width: 20vh;
@@ -3525,4 +3652,473 @@ padding: .5vw;
 }
 #p25center>p{
   font-family: font4;
+}
+#p25l>h1{
+  position: absolute;
+/* text-align: right !important; */
+right: 15%;
+}
+
+
+/* -----------------------------making responsive for phone--------------------- */
+@media (max-width:600px) {
+  #loading {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ad9d7f;
+    z-index: 999;
+    animation-name: loadup;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+  }
+  #loverlay {
+    height: 100%;
+    width: 100%;
+    background-image: url(./noise.gif);
+    opacity: 0.1;
+    position: absolute;
+  }
+  #limage {
+    background-image: url(./nav3.png);
+    background-size: cover;
+    background-position: center;
+    height: 20vw;
+    width: 20vw;
+    margin-bottom: 2vw;
+    animation-name: loadinganime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    transition: all linear 2s;
+    animation-fill-mode: forwards;
+  }
+  #progress-bar {
+    width: 100%;
+    /* background-color: lightgray; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #progress-bar span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 1vw;
+    font-family: font1;
+    font-size: 2vw;
+    background-color: #111;
+    color: #ad9d7f;
+  
+  }
+  #loading>h1{
+    font-family: font1;
+    opacity: .3;
+    font-size: 2vh;
+    line-height: 1;
+  }
+  
+  /*---------------------------------hijack notification-------------------------- */
+  /* #hijacked{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0vh;
+    left: 0;
+    transition: all linear 1s;
+    display:none;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000d1;
+    z-index: 999;
+  } */
+  #hcard{
+    position: absolute;
+    height: 65vh;
+    width: 60vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: grey; */
+    background-image: url(hijack\ img.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @keyframes hcardb{
+    0%{
+      rotate: 10deg;
+    }
+    100%{
+      rotate:-10deg;
+    }
+  }
+  #hcard>img{
+    height: 50vh;
+    position: absolute;
+    left: -10%;
+    bottom: 0%;
+    transform-origin: center;
+    animation-name: hcardb;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  #hhright{
+    height: 80%;
+    width: 60%;
+    /* background-color: grey; */
+    padding: 5vh 0;
+    position: absolute;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  
+  }
+  #hhright>h1{
+    font-size: 1.5vw;
+    font-family: font2;
+  }
+  #hhright>p{
+    font-family: font4;
+  }
+  #hbottom{
+    display: flex;
+  }
+  #himage{
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    background-image: url(./p241.png);
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    left: 15%;
+    bottom: 0%;
+    /* margin-right: 5vh; */
+    /* background-color: green; */
+  }
+  #himage>img{
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    background-color: #111;
+    padding: 1vw;
+    object-fit: cover;
+    object-position: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  #hbright{
+    display: flex;
+    margin-left: 5vw;
+    gap: .5vw;
+    flex-direction: column;
+  }
+  #hbright a{
+    font-family: font2;
+    color: #111;
+    text-decoration: none;
+  }
+  #hiclose{
+    position: absolute;
+    right: 10vw;
+    top: 10vh;
+    font-size: 3vw;
+    cursor: pointer;
+  }
+  /* ----------------nav starts here-------------- */
+  #nav {
+    height: 30vh;
+    width: 100vw;
+    background-image: url(./cloud.png);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: -999;
+    /* opacity: 0; */
+    left: 50%;
+    transform: translateX(-50%);
+    /* bottom: 0; */
+    /* transition: all linear 2s; */
+    top: 73vh;
+    display: flex;
+    /* opacity: 0; */
+    /* z-index: -9; */
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    font-family: font2;
+  }
+  @keyframes nimgmotion {
+    0% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 999;
+    }
+  }
+  #nimg {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 88vh;
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+    height: 15vw;
+    width: 15vw;
+    background-image: url(./nav1.png);
+    z-index: 999;
+    background-size: cover;
+    cursor: pointer;
+    animation-name: nimgmotion;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 5s; */
+  }
+  #nimg:after {
+    content: "";
+    height: 3vh;
+    width: 3vh;
+    /* background-color: red; */
+    left: 53%;
+    transform: translateX(-50%);
+    top: 20%;
+    opacity: 1;
+    position: absolute;
+    background-image: url(./nav4.png);
+    background-size: cover;
+    background-position: center;
+  }
+  #nav > img {
+    height: 15vw;
+    position: absolute;
+    cursor: pointer;
+    /* position: relative; */
+    bottom: 7vh;
+    transition: all linear 1s;
+    /* display: none; */
+  }
+  #nav > h3 {
+    cursor: pointer;
+    position: relative;
+    /* transition: all linear 2s; */
+    font-size: 2vh;
+    margin-bottom: 3vh;
+  }
+  #navh3{
+    position: relative;
+  }
+  #navh3::after {
+    content: "";
+    height: 2vh;
+    width: 2vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 170%;
+    left: -40%;
+    background-image: url(nav2.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* ----------------main starts here-------------- */
+  #main {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+  .overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-image: url(./noise.gif);
+    opacity: 0.1;
+    z-index: 99;
+  }
+  /* ----------------page1 starts here-------------- */
+  #page1 {
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    overflow: hidden;
+  }
+  #page1 img {
+    height: 100%;
+    width: 100%;
+    scale: 1.1;
+    object-fit: cover;
+    object-position:50% -100%;
+  }
+  #p1c1 {
+    height: 12%;
+    width: 120%;
+    position: absolute;
+    left: -19rem;
+    top: 30rem;
+    background-image: url(./cloud.png);
+    background-size: cover;
+    background-position: right;
+  }
+  #p1c2 {
+    height: 12%;
+    width: 120%;
+    position: absolute;
+    top: 30rem;
+    right: -19rem;
+    background-image: url(./cloud.png);
+    background-size: cover;
+    background-position: left;
+  }
+  #page1 h1 {
+    transform: translateX(-50%);
+    left: 50%;
+    top: 30vh;
+    font-family: font2;
+    font-size: 20vw;
+    position: absolute;
+    opacity: 0.8;
+  }
+  #page1 p {
+    transform: translateX(-50%);
+    left: 50%;
+    top: 43vh;
+    font-family: font3;
+    font-size: 4vw;
+    position: absolute;
+    opacity: 0.8;
+    width: 40vw;
+    text-align: center;
+    line-height: 1;
+    color: #1b1a19;
+  }
+  #page1 button {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-image: url(./button1.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    top: 50vh;
+    padding: 2vh 5vh;
+    font-family: font2;
+    font-size: 3vw;
+    cursor: pointer;
+    z-index: 99;
+    transition: all linear 0.2s;
+  }
+  #page1 button:hover {
+    background-image: url(./button2.png);
+    color: #ccc0aa;
+    transition: all linear 0.2s;
+  }
+  @keyframes motion {
+    0% {
+      rotate: 5deg;
+    }
+    100% {
+      rotate: -5deg;
+    }
+  }
+  #p1boat {
+    height: 13vh;
+    width: 25vh;
+    background-image: url(./p1boat.webp);
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+    position: absolute;
+    left: 52%;
+    transform: translateX(-50%);
+    bottom: 15vw;
+    animation-name: motion;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+  }
+  
+/* -------------------------page2 starts here------------------ */
+#page2 {
+  overflow: hidden;
+  height: 125vh;
+  width: 100%;
+  background-image: url(./page2bg.png);
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  top: -14.5vh;
+}
+.shutterp1 {
+  height: 30vh;
+  width: 27vh;
+  background-image: url(./shutterstock.png);
+  background-size: cover;
+  background-position: center;
+}
+#shutter1 {
+  top: 50vh;
+  left: -17vw;
+  position: absolute;
+}
+#shutter2 {
+  top: 5vh;
+  right: -12vw;
+  position: absolute;
+}
+#page2 > h1 {
+  color: #ccc0aa;
+  left: 50%;
+  top: 35%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 4vh;
+  text-transform: uppercase;
+  line-height: 1;
+  width: 90vw;
+  font-family: font1;
+}
+#page2 > p {
+  color: #ccc0aa;
+  left: 50%;
+  bottom: 22%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 2.5vh;
+  width: 80vw;
+  text-align: center;
+  /* text-transform: uppercase; */
+  line-height: 1;
+  font-family: font4;
+}
 }
