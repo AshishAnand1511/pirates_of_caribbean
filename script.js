@@ -947,6 +947,7 @@ p202.addEventListener("click", () => {
     });
     gsap.to("#bullet2", {
       x: 0,
+      duration:.001,
     });
     flag20 = 1;
   }
@@ -955,7 +956,8 @@ p202.addEventListener("click", () => {
       x: 600,
     });
     gsap.to("#bullet", {
-      x:0,
+      x: 0,
+      duration:.001,
     });
     flag20 = 0;
   }
