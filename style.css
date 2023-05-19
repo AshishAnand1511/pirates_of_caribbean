@@ -1,23 +1,23 @@
 /* -----------------------fonts used---------------- */
 @font-face {
   font-family: font1;
-  src: url(./font1.woff2);
+  src: url(./font1.ttf);
 }
 @font-face {
   font-family: font2;
-  src: url(./font2.woff2);
+  src: url(./font2.ttf);
 }
 @font-face {
   font-family: font3;
-  src: url(./font3.woff2);
+  src: url(./font3.ttf);
 }
 @font-face {
   font-family: font4;
-  src: url(./font4.woff2);
+  src: url(./font4.ttf);
 }
 @font-face {
   font-family: font5;
-  src: url(./font5.woff2);
+  src: url(./font5.ttf);
 }
 * {
   margin: 0;
@@ -31,6 +31,9 @@ body {
 }
 body {
   background-color: #ad9d7f;
+}
+#main::-webkit-scrollbar{
+  display: none;
 }
 /* ----------------loading starts here-------------- */
 @keyframes loadinganime {
