@@ -6506,7 +6506,7 @@ display: none;
 /* ---------------------page19 starts here------------------ */
 #page19 {
   height: 115vh;
-  background-color:#ad9d7f
+  background-color:#ad9d7f;
   width: 100vw;
   position: relative;
 }
@@ -7339,6 +7339,5 @@ right: 20%;
 bottom: 1vh;
 font-size: 2vh;
 }
-
 
 }
