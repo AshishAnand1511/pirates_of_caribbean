@@ -35,31 +35,31 @@ body {
 /* ----------------loading starts here-------------- */
 @keyframes loadinganime {
   0% {
-    background-image: url(./nav3.png);
+    background-image: url(./nav3.webp);
   }
   15% {
-    background-image: url(./nav1.png);
+    background-image: url(./nav1.webp);
   }
   30% {
-    background-image: url(./nav3.png);
+    background-image: url(./nav3.webp);
   }
   45% {
-    background-image: url(./nav1.png);
+    background-image: url(./nav1.webp);
     top: 0;
   }
   60% {
-    background-image: url(./nav3.png);
+    background-image: url(./nav3.webp);
     top: 0;
   }
   75% {
-    background-image: url(./nav1.png);
+    background-image: url(./nav1.webp);
     top: 0;
   }
   87% {
-    background-image: url(./nav3.png);
+    background-image: url(./nav3.webp);
   }
   100% {
-    background-image: url(./nav1.png);
+    background-image: url(./nav1.webp);
   }
 }
 @keyframes loadup {
@@ -101,7 +101,7 @@ body {
   position: absolute;
 }
 #limage {
-  background-image: url(./nav3.png);
+  background-image: url(./nav3.webp);
   background-size: cover;
   background-position: center;
   height: 10vw;
@@ -165,7 +165,7 @@ body {
   top: 50%;
   transform: translate(-50%,-50%);
   /* background-color: grey; */
-  background-image: url(hijack\ img.png);
+  background-image: url(hijack\ img.webp);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -220,7 +220,7 @@ body {
   position: absolute;
   height: 10vw;
   width: 10vw;
-  background-image: url(./p241.png);
+  background-image: url(./p241.webp);
   background-size: cover;
   background-position: center;
   /* display: flex; */
@@ -264,7 +264,7 @@ body {
 #nav {
   height: 42vh;
   width: 60vw;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -306,7 +306,7 @@ body {
   transform: translateX(-50%);
   height: 6vw;
   width: 6vw;
-  background-image: url(./nav1.png);
+  background-image: url(./nav1.webp);
   z-index: 999;
   background-size: cover;
   cursor: pointer;
@@ -325,7 +325,7 @@ body {
   top: 25%;
   opacity: 1;
   position: absolute;
-  background-image: url(./nav4.png);
+  background-image: url(./nav4.webp);
   background-size: cover;
   background-position: center;
 }
@@ -349,7 +349,7 @@ body {
   position: absolute;
   top: -140%;
   left: -130%;
-  background-image: url(nav2.png);
+  background-image: url(nav2.webp);
   background-size: cover;
   background-position: center;
 }
@@ -388,7 +388,7 @@ body {
   position: absolute;
   left: -35rem;
   top: 5rem;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: right;
 }
@@ -398,7 +398,7 @@ body {
   position: absolute;
   top: 18rem;
   right: -30rem;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: left;
 }
@@ -428,7 +428,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -442,7 +442,7 @@ body {
   transition: all linear 0.2s;
 }
 #page1 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -479,7 +479,7 @@ body {
   overflow: hidden;
   height: 125vh;
   width: 100%;
-  background-image: url(./page2bg.png);
+  background-image: url(./page2bg.webp);
   background-size: cover;
   background-position: right;
   position: relative;
@@ -488,7 +488,7 @@ body {
 .shutterp1 {
   height: 70vh;
   width: 65vh;
-  background-image: url(./shutterstock.png);
+  background-image: url(./shutterstock.webp);
   background-size: cover;
   background-position: center;
 }
@@ -549,7 +549,7 @@ body {
   position: absolute;
   bottom: 20vh;
   opacity: 0.5;
-  background-image: url(./p3w2.png);
+  background-image: url(./p3w2.webp);
   background-size: cover;
   background-position: center;
   /* z-index: -9; */
@@ -578,7 +578,7 @@ body {
   height: 92%;
   width: 55%;
   /* z-index: ; */
-  background-image: url(./p3boat.png);
+  background-image: url(./p3boat.webp);
   background-position: right;
   background-size: 130%;
   background-repeat: no-repeat;
@@ -607,7 +607,7 @@ body {
   left: -13%;
   position: absolute;
   /* bottom: 20vh; */
-  background-image: url(./p3w1.png);
+  background-image: url(./p3w1.webp);
   background-size: cover;
   background-position: center;
   animation-name: p3motion2;
@@ -665,7 +665,7 @@ body {
   left: 60%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -679,7 +679,7 @@ body {
   transition: all linear 0.2s;
 }
 #page3 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
   z-index: 999;
@@ -696,7 +696,7 @@ body {
   position: absolute;
   height: 10vw;
   width: 15vw;
-  background-image: url(./p41.png);
+  background-image: url(./p41.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -708,7 +708,7 @@ body {
   position: absolute;
   height: 13vw;
   width: 18vw;
-  background-image: url(./p42.png);
+  background-image: url(./p42.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -720,7 +720,7 @@ body {
   position: absolute;
   height: 13vw;
   width: 18vw;
-  background-image: url(./p43.png);
+  background-image: url(./p43.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -732,7 +732,7 @@ body {
   position: absolute;
   height: 13vw;
   width: 18vw;
-  background-image: url(./p44.png);
+  background-image: url(./p44.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -744,7 +744,7 @@ body {
   position: absolute;
   height: 10vw;
   width: 15vw;
-  background-image: url(./p45.png);
+  background-image: url(./p45.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -756,7 +756,7 @@ body {
   position: absolute;
   height: 11vw;
   width: 15vw;
-  background-image: url(./p46.png);
+  background-image: url(./p46.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -807,7 +807,7 @@ body {
   right: 18%;
   bottom: 1.5%;
   z-index: 9;
-  background-image: url(./p4main2.png);
+  background-image: url(./p4main2.webp);
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center;
@@ -817,7 +817,7 @@ body {
   position: absolute;
   height: 11vw;
   width: 15vw;
-  background-image: url(./p46.png);
+  background-image: url(./p46.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -846,42 +846,42 @@ body {
   right: 3%;
   scale: 1.3;
   opacity: 0.7;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.webp);
 }
 #p52 {
   top: 30%;
   right: 10%;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.webp);
 }
 #p53 {
   top: 55%;
   right: 20%;
   scale: 1.5;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.webp);
 }
 #p54 {
   top: 40%;
   left: 20%;
   opacity: 0.5;
   scale: 1.4;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
 }
 #p55 {
   scale: 0.8;
   top: 0%;
   left: 10%;
   opacity: 0;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
 }
 #p56 {
   top: 60%;
   left: 3%;
   scale: 0.8;
   opacity: 0.9;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
 }
 #p57 {
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
   scale: 1.5;
   left: 50%;
   top: 10%;
@@ -889,7 +889,7 @@ body {
   transform: translateX(-50%);
 }
 #p58 {
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
   scale: 1.5;
   left: 30%;
   bottom: 15%;
@@ -940,7 +940,7 @@ body {
   width: 54vw;
   height: 32vw;
   top: 20%;
-  background-image: url(./p6frame.png);
+  background-image: url(./p6frame.webp);
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -954,7 +954,7 @@ body {
   bottom: 0%;
   position: absolute;
   /* background-color: red; */
-  background-image: url(cloud.png);
+  background-image: url(cloud.webp);
   background-size: cover;
   background-position: right;
   z-index: 9;
@@ -966,7 +966,7 @@ body {
   top: 0%;
   position: absolute;
   /* background-color: red; */
-  background-image: url(cloud.png);
+  background-image: url(cloud.webp);
   background-size: cover;
   background-position: left;
   z-index: 9;
@@ -975,7 +975,7 @@ body {
   height: 7vw;
   width: 10vw;
   /* background-color: red; */
-  background-image: url(kiss1.png);
+  background-image: url(kiss1.webp);
   background-size: cover;
   background-position: center;
   left: 45%;
@@ -987,7 +987,7 @@ body {
   height: 10vw;
   width: 13vw;
   /* background-color: red; */
-  background-image: url(kiss2.png);
+  background-image: url(kiss2.webp);
   background-size: cover;
   background-position: center;
   left: 60%;
@@ -1008,7 +1008,7 @@ body {
   width: 30vw;
   position: absolute;
   right: 5%;
-  background-image: url(p7img.png);
+  background-image: url(p7img.webp);
   background-size: cover;
   background-position: center;
 }
@@ -1071,7 +1071,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -1085,7 +1085,7 @@ body {
   transition: all linear 0.2s;
 }
 #page7 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -1149,60 +1149,60 @@ body {
   }
 }
 #c1 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 10%;
   left: 20%;
 }
 #c2 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 60%;
   left: 25%;
 }
 #c3 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 35%;
   left: 5%;
   scale: 1.4;
 }
 #c4 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 70%;
   left: 2%;
 }
 #c5 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 5%;
   left: 2%;
 }
 #c6 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 10%;
   right: 20%;
 }
 #c7 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 60%;
   right: 25%;
   scale: 1.4;
 }
 #c8 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 35%;
   right: 15%;
 }
 #c9 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 70%;
   right: 2%;
 }
 #c10 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 5%;
   right: 2%;
   scale: 1.4;
 }
 #c11 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   scale: 0.8;
   top: 35%;
   right: 0%;
@@ -1239,7 +1239,7 @@ body {
 }
 #p9k1 {
   height: 15vh;
-  background-image: url(kiss1.png);
+  background-image: url(kiss1.webp);
   background-size: cover;
   background-position: center;
   width: 10vw;
@@ -1256,7 +1256,7 @@ body {
   left: 10%;
   top: 35%;
   rotate: 20deg;
-  background-image: url(p9img2.png);
+  background-image: url(p9img2.webp);
   background-size: cover;
   background-position: center;
 }
@@ -1268,7 +1268,7 @@ body {
   left: 10%;
   top: 36%;
   rotate: 10deg;
-  background-image: url(./p6frame.png);
+  background-image: url(./p6frame.webp);
   background-size: cover;
   background-position: center;
 }
@@ -1279,7 +1279,7 @@ body {
   position: absolute;
   right: 10%;
   top: 30%;
-  background-image: url(./p9img1.png);
+  background-image: url(./p9img1.webp);
   background-size: cover;
   background-position: center;
   /* background-color: grey; */
@@ -1287,7 +1287,7 @@ body {
 #p9skullkiss {
   height: 8vh;
   width: 5vw;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
   position: absolute;
   right: 28%;
   top: 35%;
@@ -1315,7 +1315,7 @@ body {
   left: 48%;
   top: 59%;
   rotate: 10deg;
-  background-image: url(./p6frame.png);
+  background-image: url(./p6frame.webp);
   background-size: cover;
   background-position: center;
 }
@@ -1325,7 +1325,7 @@ body {
   right: 0;
   /* background-color: red; */
   position: absolute;
-  background-image: url(p9img3.png);
+  background-image: url(p9img3.webp);
   background-size: cover;
   background-position: center;
 }
@@ -1419,7 +1419,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -1433,7 +1433,7 @@ body {
   transition: all linear 0.2s;
 }
 #page10 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -1446,7 +1446,7 @@ body {
   left: -10%;
   top: 20%;
   /* background-color: red; */
-  background-image: url(./p10tree.png);
+  background-image: url(./p10tree.webp);
   background-size: cover;
   background-position: center;
   transform-origin: 50%, 50%;
@@ -1473,7 +1473,7 @@ body {
   width: 45vw;
   height: 15vw;
   /* background-color: red; */
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -1484,7 +1484,7 @@ body {
   right: -10%;
   height: 15vw;
   /* background-color: red; */
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -1497,7 +1497,7 @@ body {
   transform: translateX(-50%);
   height: 15vw;
   /* background-color: red; */
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -1509,7 +1509,7 @@ body {
   position: absolute;
   right: 10%;
   bottom: 30%;
-  background-image: url(./p104.png);
+  background-image: url(./p104.webp);
   background-size: cover;
   background-position: center;
   transform-origin: 50%, 50%;
@@ -1546,7 +1546,7 @@ body {
   /* background-color: red; */
   background-position: center;
   background-size: cover;
-  background-image: url(./p101.png);
+  background-image: url(./p101.webp);
   bottom: 15%;
   position: absolute;
 }
@@ -1556,7 +1556,7 @@ body {
   left: 20%;
   rotate: 45deg;
   transition: all linear 1s;
-  background-image: url(./p103.png);
+  background-image: url(./p103.webp);
   background-size: cover;
   background-position: center;
   bottom: 15%;
@@ -1590,7 +1590,7 @@ body {
 #p103 {
   height: 70vh;
   transition: all linear 2s;
-  background-image: url(./p102.png);
+  background-image: url(./p102.webp);
   background-size: cover;
   background-position: bottom;
   position: absolute;
@@ -1608,7 +1608,7 @@ body {
   z-index: 99;
   position: absolute;
   background-size: cover;
-  background-image: url(./p10water.png);
+  background-image: url(./p10water.webp);
 }
 
 /* ---------------------page11 starts here------------------ */
@@ -1654,7 +1654,7 @@ body {
   top: 30%;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url(./p111.png);
+  background-image: url(./p111.webp);
 }
 #cp112 {
   height: 77vh;
@@ -1667,7 +1667,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p112.png);
+  background-image: url(./p112.webp);
 }
 #cp113 {
   height: 110vh;
@@ -1680,7 +1680,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p117.png);
+  background-image: url(./p117.webp);
 }
 #cp114 {
   height: 30vh;
@@ -1693,13 +1693,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p116.png);
+  background-image: url(./p116.webp);
 }
 .p11c {
   height: 40vh;
   width: 30vh;
   position: absolute;
-  background-image: url(./p113.png);
+  background-image: url(./p113.webp);
   background-size: cover;
   background-position: center;
 }
@@ -1763,7 +1763,7 @@ body {
   position: absolute;
   height: 20vh;
   width: 100%;
-  background-image: url(./p121.png);
+  background-image: url(./p121.webp);
   background-size: cover;
   background-position: center;
   top: -10%;
@@ -1772,7 +1772,7 @@ body {
   height: 30vh;
   width: 55vh;
   /* background-color: red; */
-  background-image: url(./p122.png);
+  background-image: url(./p122.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -1816,28 +1816,28 @@ body {
   /* background-color: grey; */
 }
 #imgp121 {
-  background-image: url(./p123.png);
+  background-image: url(./p123.webp);
 }
 #imgp122 {
-  background-image: url(./p124.png);
+  background-image: url(./p124.webp);
 }
 #imgp123 {
-  background-image: url(./p125.png);
+  background-image: url(./p125.webp);
 }
 #imgp124 {
-  background-image: url(./p126.png);
+  background-image: url(./p126.webp);
 }
 #imgp125 {
-  background-image: url(./p127.png);
+  background-image: url(./p127.webp);
 }
 #imgp126 {
-  background-image: url(./p128.png);
+  background-image: url(./p128.webp);
 }
 #imgp127 {
-  background-image: url(./p129.png);
+  background-image: url(./p129.webp);
 }
 #imgp128 {
-  background-image: url(./p1210.png);
+  background-image: url(./p1210.webp);
 }
 
 /* ---------------------page13 starts here------------------ */
@@ -1859,7 +1859,7 @@ body {
 #p13img {
   height: 50vh;
   width: 40vw;
-  background-image: url(./p6frame.png);
+  background-image: url(./p6frame.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -1882,7 +1882,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -1896,7 +1896,7 @@ body {
   transition: all linear 0.2s;
 }
 #page13 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -1907,7 +1907,7 @@ body {
   top: 5%;
   z-index: 9;
   width: 59vw;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: right;
 }
@@ -1918,7 +1918,7 @@ body {
   top: 30%;
   z-index: 9;
   width: 59vw;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: left;
 }
@@ -1929,7 +1929,7 @@ body {
   position: relative;
   width: 100vw;
   color: #ad9d7f;
-  background-image: url(./p14main.png);
+  background-image: url(./p14main.webp);
   background-size: cover;
   background-position: bottom;
 }
@@ -1938,7 +1938,7 @@ body {
   position: absolute;
   top: -3%;
   width: 100vw;
-  background-image: url(./p141.png);
+  background-image: url(./p141.webp);
   background-size: cover;
   background-position: top;
 }
@@ -1949,7 +1949,7 @@ body {
   transform: translate(-50%, -50%);
   height: 120vh;
   width: 100vw;
-  background-image: url(./p144.png);
+  background-image: url(./p144.webp);
   background-size: cover;
   background-position: center;
 }
@@ -1993,7 +1993,7 @@ body {
   height: 20vh;
   width: 20vh;
   position: absolute;
-  background-image: url(./p142.png);
+  background-image: url(./p142.webp);
   background-position: center;
   background-size: cover;
   animation-name: p14motion;
@@ -2074,14 +2074,14 @@ body {
   position: absolute;
   bottom: 5%;
   right: 15%;
-  background-image: url(./p145.png);
+  background-image: url(./p145.webp);
 }
 #p14img2 {
   height: 30vw;
   width: 35vw;
   left: 45%;
   transform: translateX(-50%);
-  background-image: url(./p148.png);
+  background-image: url(./p148.webp);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -2095,7 +2095,7 @@ body {
   height: 30%;
   width: 100%;
   position: absolute;
-  background-image: url(./p147.png);
+  background-image: url(./p147.webp);
   background-size: cover;
   background-position: center;
   bottom: 2%;
@@ -2106,7 +2106,7 @@ body {
   width: 38vw;
   left: 45%;
   transform: translateX(-50%);
-  background-image: url(./p146.png);
+  background-image: url(./p146.webp);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -2130,7 +2130,7 @@ body {
 .coinsp142 {
   height: 100%;
   width: 20%;
-  background-image: url(./p142.png);
+  background-image: url(./p142.webp);
   background-position: center;
   background-size: cover;
 }
@@ -2159,7 +2159,7 @@ body {
 #p15upper {
   height: 150vh;
   width: 100%;
-  background-image: url(./p151.png);
+  background-image: url(./p151.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2230,7 +2230,7 @@ body {
 #fish1 {
   height: 56vh;
   width: 15vw;
-  background-image: url(p154.png);
+  background-image: url(p154.webp);
   top: 50%;
   left: 2%;
   scale: 1.2;
@@ -2240,7 +2240,7 @@ body {
   right: 10%;
   top: 50%;
   animation-duration: 1.5s;
-  background-image: url(p152.png);
+  background-image: url(p152.webp);
 }
 .bubblep15 {
   height: 3vw;
@@ -2248,7 +2248,7 @@ body {
   position: absolute;
   background-size: cover;
   background-position: center;
-  background-image: url(p153.png);
+  background-image: url(p153.webp);
   bottom: 0;
 }
 #bubble1 {
@@ -2321,7 +2321,7 @@ body {
   height: 80vh;
   background-size: cover;
   background-position: center;
-  background-image: url(p156.png);
+  background-image: url(p156.webp);
   width: 100vw;
   top: 0vh;
 }
@@ -2330,7 +2330,7 @@ body {
   height: 40vh;
   background-size: cover;
   background-position: center;
-  background-image: url(p157.png);
+  background-image: url(p157.webp);
   width: 100vw;
   bottom: 5vh;
 }
@@ -2392,7 +2392,7 @@ body {
   position: absolute;
   width: 130vw;
   right: -15vw;
-  background-image: url(p159.png);
+  background-image: url(p159.webp);
   background-size: cover;
   background-position: center;
 }
@@ -2413,7 +2413,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(p6frame.png);
+  background-image: url(p6frame.webp);
   background-size: cover;
   background-position: center;
 }
@@ -2424,7 +2424,7 @@ body {
   object-position: center;
 }
 #page16 button {
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -2437,7 +2437,7 @@ body {
   transition: all linear 0.2s;
 }
 #page16 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -2454,7 +2454,7 @@ body {
   height: 40vh;
   width: 60vw;
   position: absolute;
-  background-image: url(cloud.png);
+  background-image: url(cloud.webp);
   background-size: cover;
 }
 #p16c1 {
@@ -2531,29 +2531,29 @@ body {
   font-family: font4;
 }
 #p171img {
-  background-image: url(p171.png);
+  background-image: url(p171.webp);
 }
 #p172img {
-  background-image: url(p173.png);
+  background-image: url(p173.webp);
 }
 #p173img {
-  background-image: url(p176.png);
+  background-image: url(p176.webp);
 }
 #p174img {
-  background-image: url(p172.png);
+  background-image: url(p172.webp);
 }
 #p175img {
-  background-image: url(p174.png);
+  background-image: url(p174.webp);
 }
 #p176img {
   height: 52%;
   width: 36%;
-  background-image: url(p175.png);
+  background-image: url(p175.webp);
 }
 #p171 {
   height: 10vh;
   width: 10vh;
-  background-image: url(p179.png);
+  background-image: url(p179.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2568,7 +2568,7 @@ body {
   width: 10vh;
   /* z-index: -9; */
   opacity: 0.7;
-  background-image: url(p1710.png);
+  background-image: url(p1710.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2582,7 +2582,7 @@ body {
   height: 10vh;
   width: 10vh;
   opacity: 0.7;
-  background-image: url(p142.png);
+  background-image: url(p142.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2596,7 +2596,7 @@ body {
   opacity: 0.7;
   height: 20vh;
   width: 13vh;
-  background-image: url(p177.png);
+  background-image: url(p177.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2610,7 +2610,7 @@ body {
   opacity: 0.7;
   height: 10vh;
   width: 14vh;
-  background-image: url(p104.png);
+  background-image: url(p104.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2623,7 +2623,7 @@ body {
 #p176 {
   height: 10vh;
   width: 14vh;
-  background-image: url(p104.png);
+  background-image: url(p104.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2636,7 +2636,7 @@ body {
 #p177 {
   height: 10vh;
   width: 10vh;
-  background-image: url(nav3.png);
+  background-image: url(nav3.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2649,7 +2649,7 @@ body {
   height: 10vh;
   width: 10vh;
   opacity: 0.7;
-  background-image: url(nav3.png);
+  background-image: url(nav3.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2663,7 +2663,7 @@ body {
   height: 12vh;
   width: 12vh;
   opacity: 0.7;
-  background-image: url(p178.png);
+  background-image: url(p178.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2676,7 +2676,7 @@ body {
 #p1710 {
   height: 12vh;
   width: 12vh;
-  background-image: url(p178.png);
+  background-image: url(p178.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2710,7 +2710,7 @@ body {
 #p18boat {
   height: 100vh;
   width: 67vw;
-  background-image: url(./p181.png);
+  background-image: url(./p181.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2723,7 +2723,7 @@ body {
 #p18boat {
   height: 100vh;
   width: 67vw;
-  background-image: url(./p181.png);
+  background-image: url(./p181.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2745,7 +2745,7 @@ body {
   /* background-color: red; */
   background-size: cover;
   background-position: center;
-  background-image: url(p183.png);
+  background-image: url(p183.webp);
   scale: 1.4;
 }
 #clickp18 {
@@ -2763,7 +2763,7 @@ body {
   font-family: font4;
   line-height: 1;
   text-align: center;
-  background-image: url(p145.png);
+  background-image: url(p145.webp);
   background-size: cover;
   background-position: center;
 }
@@ -2807,7 +2807,7 @@ body {
   position: relative;
   height: 22vh;
   width: 16vh;
-  background-image: url(p184.png);
+  background-image: url(p184.webp);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -2835,20 +2835,20 @@ body {
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-  background-image: url(p185.png);
+  background-image: url(p185.webp);
 }
 #p183 {
-  background-image: url(p186.png);
+  background-image: url(p186.webp);
 }
 #p185 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  background-image: url(p186.png);
+  background-image: url(p186.webp);
 }
 #p186 {
-  background-image: url(p185.png);
+  background-image: url(p185.webp);
 }
 
 /* ---------------------page19 starts here------------------ */
@@ -2889,7 +2889,7 @@ body {
 .p19img {
   height: 90%;
   width: 32vw;
-  background-image: url(p192.png);
+  background-image: url(p192.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -2905,7 +2905,7 @@ body {
 .p19box {
   height: 100%;
   width: 40vw;
-  background-image: url(p193.png);
+  background-image: url(p193.webp);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -2943,7 +2943,7 @@ body {
   position: absolute;
   /* background-color: green; */
   left: -10%;
-  background-image: url(./p191.png);
+  background-image: url(./p191.webp);
   background-position: center;
   background-size: cover;
   height: 2vh;
@@ -2996,7 +2996,7 @@ body {
 #p20c1 {
   height: 35vh;
   width: 50vw;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-position: right;
   background-size: cover;
   position: absolute;
@@ -3007,7 +3007,7 @@ body {
 #p20c2 {
   height: 35vh;
   width: 50vw;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-position: left;
   background-size: cover;
   position: absolute;
@@ -3034,7 +3034,7 @@ body {
   left: 0vh;
   position: absolute;
   /* background-color: red; */
-  background-image: url(p103.png);
+  background-image: url(p103.webp);
   background-size: cover;
   background-position: center;
 }
@@ -3050,7 +3050,7 @@ body {
   scale: 1.2;
   /* rotate: -4deg; */
   /* opacity: .6; */
-  background-image: url(./p201.png);
+  background-image: url(./p201.webp);
 }
 #p201 {
   height: 7vh;
@@ -3059,7 +3059,7 @@ body {
   left: 33%;
   /* rotate: 20deg; */
   transform-origin: 50% 50%;
-  background-image: url(p202.png);
+  background-image: url(p202.webp);
   background-position: center;
   background-size: cover;
 }
@@ -3075,7 +3075,7 @@ body {
   z-index: 99;
   /* rotate: 20deg; */
   transform-origin: 50% 50%;
-  background-image: url(p204.png);
+  background-image: url(p204.webp);
   background-position: center;
   background-size: cover;
 }
@@ -3085,7 +3085,7 @@ body {
   right: 34%;
   z-index: 8;
   top: 54%;
-  background-image: url(./p203.png);
+  background-image: url(./p203.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -3096,7 +3096,7 @@ body {
   right: 34%;
   z-index: 8;
   top: 54%;
-  background-image: url(./p203.png);
+  background-image: url(./p203.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -3107,14 +3107,14 @@ body {
   height: 250vh;
   width: 100vw;
   position: relative;
-  background-image: url(p14main.png);
+  background-image: url(p14main.webp);
   background-size: cover;
   background-position: bottom;
 }
 #p21upper {
   height: 20vh;
   width: 100vw;
-  background-image: url(p141.png);
+  background-image: url(p141.webp);
   background-size: cover;
   background-position: top;
   position: absolute;
@@ -3253,7 +3253,7 @@ body {
   /* transform: translateX(-50%); */
 }
 #p21bottom button {
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -3268,7 +3268,7 @@ body {
   transition: all linear 0.2s;
 }
 #p21bottom button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -3295,7 +3295,7 @@ body {
   height: 110vh;
   position: absolute;
   width: 80vw;
-  background-image: url(./p221.png);
+  background-image: url(./p221.webp);
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -3369,7 +3369,7 @@ body {
   animation-duration: 1.5s;
   animation-direction: alternate;
   animation-timing-function: linear;
-  background-image: url(p222.png);
+  background-image: url(p222.webp);
   background-size: cover;
   background-position: center;
 }
@@ -3468,7 +3468,7 @@ body {
   align-items: center;
   justify-content: space-around;
   position: relative;
-  background-image: url(page2bg.png);
+  background-image: url(page2bg.webp);
   background-size: cover;
   background-position: bottom;
 }
@@ -3487,14 +3487,14 @@ body {
 #p24img1{
   height: 15vh;
   width: 100vw;
-  background-image: url(p141.png);
+  background-image: url(p141.webp);
   top: -10vh;
   background-size: cover;
   background-position: top;
   position: absolute;
 }
 #page24 button {
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -3507,7 +3507,7 @@ body {
   transition: all linear 0.2s;
 }
 #page24 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -3519,7 +3519,7 @@ body {
   top: 5vw;
   height: 95vh;
   width: 29vw;
-  background-image: url(p177.png);
+  background-image: url(p177.webp);
   background-position: center;
   background-size: cover;
 }
@@ -3548,7 +3548,7 @@ body {
 #p25left{
   height: 60vh;
   width: 38vh;
-  background-image: url(p242.png);
+  background-image: url(p242.webp);
   background-size: cover;
   position: relative;
   background-position: center;
@@ -3606,7 +3606,7 @@ text-decoration: none;
   height: 20vh;
   width: 20vh;
   /* background-color: grey; */
-  background-image: url(./p241.png);
+  background-image: url(./p241.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -3668,7 +3668,6 @@ right: 15%;
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3688,7 +3687,7 @@ right: 15%;
     position: absolute;
   }
   #limage {
-    background-image: url(./nav3.png);
+    background-image: url(./nav3.webp);
     background-size: cover;
     background-position: center;
     height: 20vw;
@@ -3752,7 +3751,7 @@ right: 15%;
     top: 50%;
     transform: translate(-50%,-50%);
     /* background-color: grey; */
-    background-image: url(hijack\ img.png);
+    background-image: url(hijack\ img.webp);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -3807,7 +3806,7 @@ right: 15%;
     position: absolute;
     height: 10vw;
     width: 10vw;
-    background-image: url(./p241.png);
+    background-image: url(./p241.webp);
     background-size: cover;
     background-position: center;
     /* display: flex; */
@@ -3851,7 +3850,7 @@ right: 15%;
   #nav {
     height: 30vh;
     width: 100vw;
-    background-image: url(./cloud.png);
+    background-image: url(./cloud.webp);
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -3893,7 +3892,7 @@ right: 15%;
     transform: translateX(-50%);
     height: 15vw;
     width: 15vw;
-    background-image: url(./nav1.png);
+    background-image: url(./nav1.webp);
     z-index: 999;
     background-size: cover;
     cursor: pointer;
@@ -3912,7 +3911,7 @@ right: 15%;
     top: 20%;
     opacity: 1;
     position: absolute;
-    background-image: url(./nav4.png);
+    background-image: url(./nav4.webp);
     background-size: cover;
     background-position: center;
   }
@@ -3943,7 +3942,7 @@ right: 15%;
     position: absolute;
     top: 170%;
     left: -40%;
-    background-image: url(nav2.png);
+    background-image: url(nav2.webp);
     background-size: cover;
     background-position: center;
   }
@@ -3982,7 +3981,7 @@ right: 15%;
     position: absolute;
     left: -19rem;
     top: 27rem;
-    background-image: url(./cloud.png);
+    background-image: url(./cloud.webp);
     background-size: cover;
     background-position: right;
   }
@@ -3992,7 +3991,7 @@ right: 15%;
     position: absolute;
     top: 27rem;
     right: -19rem;
-    background-image: url(./cloud.png);
+    background-image: url(./cloud.webp);
     background-size: cover;
     background-position: left;
   }
@@ -4022,7 +4021,7 @@ right: 15%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    background-image: url(./button1.png);
+    background-image: url(./button1.webp);
     background-size: cover;
     background-position: center;
     border: none;
@@ -4036,7 +4035,7 @@ right: 15%;
     transition: all linear 0.2s;
   }
   #page1 button:hover {
-    background-image: url(./button2.png);
+    background-image: url(./button2.webp);
     color: #ccc0aa;
     transition: all linear 0.2s;
   }
@@ -4073,7 +4072,7 @@ right: 15%;
   overflow: hidden;
   height: 125vh;
   width: 100%;
-  background-image: url(./page2bg.png);
+  background-image: url(./page2bg.webp);
   background-size: cover;
   background-position: right;
   position: relative;
@@ -4082,7 +4081,7 @@ right: 15%;
 .shutterp1 {
   height: 30vh;
   width: 27vh;
-  background-image: url(./shutterstock.png);
+  background-image: url(./shutterstock.webp);
   background-size: cover;
   background-position: center;
 }
@@ -4147,7 +4146,7 @@ right: 15%;
   position: absolute;
   bottom: 30vh;
   opacity: 0.5;
-  background-image: url(./p3w2.png);
+  background-image: url(./p3w2.webp);
   background-size: cover;
   background-position: center;
   /* z-index: -9; */
@@ -4176,7 +4175,7 @@ right: 15%;
   height: 100%;
   width: 70%;
   /* z-index: ; */
-  background-image: url(./p3boat.png);
+  background-image: url(./p3boat.webp);
   background-position: right;
   background-size: 130%;
   background-repeat: no-repeat;
@@ -4205,7 +4204,7 @@ right: 15%;
   left: -13%;
   position: absolute;
   bottom: 24vh !important;
-  background-image: url(./p3w1.png);
+  background-image: url(./p3w1.webp);
   background-size: cover;
   background-position: center;
   animation-name: p3motion2;
@@ -4265,7 +4264,7 @@ right: 15%;
   left: 60%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -4279,7 +4278,7 @@ right: 15%;
   transition: all linear 0.2s;
 }
 #page3 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
   z-index: 999;
@@ -4296,7 +4295,7 @@ right: 15%;
   position: absolute;
   height: 10vh;
   width: 15vh;
-  background-image: url(./p41.png);
+  background-image: url(./p41.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4308,7 +4307,7 @@ right: 15%;
   position: absolute;
   height: 13vh;
   width: 18vh;
-  background-image: url(./p42.png);
+  background-image: url(./p42.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4320,7 +4319,7 @@ right: 15%;
   position: absolute;
   height: 13vh;
   width: 18vh;
-  background-image: url(./p43.png);
+  background-image: url(./p43.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4332,7 +4331,7 @@ right: 15%;
   position: absolute;
   height: 13vh;
   width: 18vh;
-  background-image: url(./p44.png);
+  background-image: url(./p44.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4344,7 +4343,7 @@ right: 15%;
   position: absolute;
   height: 10vh;
   width: 15vh;
-  background-image: url(./p45.png);
+  background-image: url(./p45.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4356,7 +4355,7 @@ right: 15%;
   position: absolute;
   height: 11vh;
   width: 15vh;
-  background-image: url(./p46.png);
+  background-image: url(./p46.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4409,7 +4408,7 @@ display: none;
   position: absolute;
   height: 11vh;
   width: 15vh;
-  background-image: url(./p46.png);
+  background-image: url(./p46.webp);
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4437,42 +4436,42 @@ display: none;
   right: 3%;
   scale: 1.3;
   opacity: 0.7;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.webp);
 }
 #p52 {
   top: 30%;
   right: 10%;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.webp);
 }
 #p53 {
   top: 55%;
   right: 20%;
   scale: 1.5;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.webp);
 }
 #p54 {
   top: 40%;
   left: 20%;
   opacity: 0.5;
   scale: 1.4;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
 }
 #p55 {
   scale: 0.8;
   top: 0%;
   left: 10%;
   opacity: 0;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
 }
 #p56 {
   top: 60%;
   left: 3%;
   scale: 0.8;
   opacity: 0.9;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
 }
 #p57 {
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
   scale: 1.5;
   left: 50%;
   top: 10%;
@@ -4480,7 +4479,7 @@ display: none;
   transform: translateX(-50%);
 }
 #p58 {
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
   scale: 1.5;
   left: 30%;
   bottom: 15%;
@@ -4533,7 +4532,7 @@ display: none;
   width: 47vh;
   height: 32vh;
   top: 28%;
-  background-image: url(./p6frame.png);
+  background-image: url(./p6frame.webp);
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -4547,7 +4546,7 @@ display: none;
   bottom: 20%;
   position: absolute;
   /* background-color: red; */
-  background-image: url(cloud.png);
+  background-image: url(cloud.webp);
   background-size: cover;
   background-position: right;
   z-index: 9;
@@ -4559,7 +4558,7 @@ display: none;
   top: 5%;
   position: absolute;
   /* background-color: red; */
-  background-image: url(cloud.png);
+  background-image: url(cloud.webp);
   background-size: cover;
   background-position: left;
   z-index: 9;
@@ -4568,7 +4567,7 @@ display: none;
   height: 7vw;
   width: 10vw;
   /* background-color: red; */
-  background-image: url(kiss1.png);
+  background-image: url(kiss1.webp);
   background-size: cover;
   background-position: center;
   left: 45%;
@@ -4580,7 +4579,7 @@ display: none;
   height: 10vw;
   width: 13vw;
   /* background-color: red; */
-  background-image: url(kiss2.png);
+  background-image: url(kiss2.webp);
   background-size: cover;
   background-position: center;
   left: 60%;
@@ -4602,7 +4601,7 @@ display: none;
   width: 20vh;
   position: absolute;
   right: 5%;
-  background-image: url(p7img.png);
+  background-image: url(p7img.webp);
   background-size: cover;
   background-position: center;
 }
@@ -4668,7 +4667,7 @@ display: none;
   left: 45%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -4682,7 +4681,7 @@ display: none;
   transition: all linear 0.2s;
 }
 #page7 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -4746,60 +4745,60 @@ display: none;
   }
 }
 #c1 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 10%;
   left: 20%;
 }
 #c2 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 60%;
   left: 25%;
 }
 #c3 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 35%;
   left: 5%;
   scale: 1.4;
 }
 #c4 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 70%;
   left: 2%;
 }
 #c5 {
-  background-image: url(./chick1.png);
+  background-image: url(./chick1.webp);
   top: 5%;
   left: 2%;
 }
 #c6 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 10%;
   right: 20%;
 }
 #c7 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 60%;
   right: 25%;
   scale: 1.4;
 }
 #c8 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 35%;
   right: 15%;
 }
 #c9 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 70%;
   right: 2%;
 }
 #c10 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   top: 5%;
   right: 2%;
   scale: 1.4;
 }
 #c11 {
-  background-image: url(./chick2.png);
+  background-image: url(./chick2.webp);
   scale: 0.8;
   top: 35%;
   right: 0%;
@@ -4838,7 +4837,7 @@ display: none;
 #p9k1 {
   height: 10vh;
   width: 20vw;
-  background-image: url(kiss1.png);
+  background-image: url(kiss1.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -4854,7 +4853,7 @@ display: none;
   left: 12%;
   top: 35%;
   rotate: 10deg;
-  background-image: url(p9img2.png);
+  background-image: url(p9img2.webp);
   background-size: cover;
   background-position: center;
 }
@@ -4866,7 +4865,7 @@ display: none;
   left: 10%;
   top: 36%;
   rotate: 10deg;
-  background-image: url(./p6frame.png);
+  background-image: url(./p6frame.webp);
   background-size: cover;
   background-position: center;
 }
@@ -4877,7 +4876,7 @@ display: none;
   position: absolute;
   right: 10%;
   top:55%;
-  background-image: url(./p9img1.png);
+  background-image: url(./p9img1.webp);
   background-size: cover;
   background-position: center;
   /* background-color: grey; */
@@ -4885,7 +4884,7 @@ display: none;
 #p9skullkiss {
   height: 5vh;
   width: 12vw;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.webp);
   position: absolute;
   right: 45%;
   top: 57%;
@@ -4913,7 +4912,7 @@ display: none;
   left: 10%;
   top: 75%;
   rotate: 10deg;
-  background-image: url(./p6frame.png);
+  background-image: url(./p6frame.webp);
   background-size: cover;
   background-position: center;
 }
@@ -4923,7 +4922,7 @@ display: none;
   right: 0;
   /* background-color: red; */
   position: absolute;
-  background-image: url(p9img3.png);
+  background-image: url(p9img3.webp);
   background-size: cover;
   background-position: center;
 }
@@ -5017,7 +5016,7 @@ display: none;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -5031,7 +5030,7 @@ display: none;
   transition: all linear 0.2s;
 }
 #page10 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -5044,7 +5043,7 @@ display: none;
   left: -10%;
   top: 35%;
   /* background-color: red; */
-  background-image: url(./p10tree.png);
+  background-image: url(./p10tree.webp);
   background-size: cover;
   background-position: center;
   transform-origin: 50%, 50%;
@@ -5071,7 +5070,7 @@ display: none;
   width: 45vh;
   height: 15vh;
   /* background-color: red; */
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -5083,7 +5082,7 @@ display: none;
   width: 45vh;
   height: 15vh;
   /* background-color: red; */
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -5096,7 +5095,7 @@ display: none;
   transform: translateX(-50%);
   height: 15vh;
   /* background-color: red; */
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -5108,7 +5107,7 @@ display: none;
   position: absolute;
   right: 10%;
   bottom: 30%;
-  background-image: url(./p104.png);
+  background-image: url(./p104.webp);
   background-size: cover;
   background-position: center;
   transform-origin: 50%, 50%;
@@ -5148,7 +5147,7 @@ display: none;
   /* background-color: red; */
   background-position: center;
   background-size: cover;
-  background-image: url(./p101.png);
+  background-image: url(./p101.webp);
   bottom: 15%;
   position: absolute;
 }
@@ -5158,7 +5157,7 @@ display: none;
   left: 20%;
   rotate: 115deg;
   transition: all linear 1s;
-  background-image: url(./p103.png);
+  background-image: url(./p103.webp);
   background-size: cover;
   background-position: center;
   bottom: 27%;
@@ -5193,7 +5192,7 @@ display: none;
   height: 48vh;
   width:20vh;
   transition: all linear 2s;
-  background-image: url(./p102.png);
+  background-image: url(./p102.webp);
   background-size: cover;
   background-position: bottom;
   position: absolute;
@@ -5210,7 +5209,7 @@ display: none;
   z-index: 99;
   position: absolute;
   background-size: cover;
-  background-image: url(./p10water.png);
+  background-image: url(./p10water.webp);
 }
 
 /* ---------------------page11 starts here------------------ */
@@ -5258,7 +5257,7 @@ display: none;
   top: 35%;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url(./p111.png);
+  background-image: url(./p111.webp);
 }
 #cp112 {
   height: 27vh;
@@ -5271,7 +5270,7 @@ display: none;
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p112.png);
+  background-image: url(./p112.webp);
 }
 #cp113 {
   height: 39vh;
@@ -5284,7 +5283,7 @@ display: none;
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p117.png);
+  background-image: url(./p117.webp);
 }
 #cp114 {
   height: 10vh;
@@ -5297,14 +5296,14 @@ display: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p116.png);
+  background-image: url(./p116.webp);
   /* display: none; */
 }
 .p11c {
   height: 40vh;
   width: 30vh;
   position: absolute;
-  background-image: url(./p113.png);
+  background-image: url(./p113.webp);
   background-size: cover;
   background-position: center;
 }
@@ -5369,7 +5368,7 @@ display: none;
   position: absolute;
   height: 20vh;
   width: 100%;
-  background-image: url(./p121.png);
+  background-image: url(./p121.webp);
   background-size: cover;
   background-position: center;
   top: -10%;
@@ -5378,7 +5377,7 @@ display: none;
   height: 20vh;
   width: 40vh;
   /* background-color: red; */
-  background-image: url(./p122.png);
+  background-image: url(./p122.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -5423,28 +5422,28 @@ display: none;
   /* background-color: grey; */
 }
 #imgp121 {
-  background-image: url(./p123.png);
+  background-image: url(./p123.webp);
 }
 #imgp122 {
-  background-image: url(./p124.png);
+  background-image: url(./p124.webp);
 }
 #imgp123 {
-  background-image: url(./p125.png);
+  background-image: url(./p125.webp);
 }
 #imgp124 {
-  background-image: url(./p126.png);
+  background-image: url(./p126.webp);
 }
 #imgp125 {
-  background-image: url(./p127.png);
+  background-image: url(./p127.webp);
 }
 #imgp126 {
-  background-image: url(./p128.png);
+  background-image: url(./p128.webp);
 }
 #imgp127 {
-  background-image: url(./p129.png);
+  background-image: url(./p129.webp);
 }
 #imgp128 {
-  background-image: url(./p1210.png);
+  background-image: url(./p1210.webp);
 }
 
 /* ---------------------page13 starts here------------------ */
@@ -5467,7 +5466,7 @@ display: none;
 #p13img {
   height: 25vh;
   width: 40vh;
-  background-image: url(./p6frame.png);
+  background-image: url(./p6frame.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -5490,7 +5489,7 @@ display: none;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.png);
+  background-image: url(./button1.webp);
   background-size: cover;
   background-position: center;
   border: none;
@@ -5504,7 +5503,7 @@ display: none;
   transition: all linear 0.2s;
 }
 #page13 button:hover {
-  background-image: url(./button2.png);
+  background-image: url(./button2.webp);
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -5515,7 +5514,7 @@ display: none;
   left: -50%;
   top: 10%;
   z-index: 9;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: right;
 }
@@ -5526,7 +5525,7 @@ display: none;
   top: 30%;
   z-index: 9;
   width: 59vh;
-  background-image: url(./cloud.png);
+  background-image: url(./cloud.webp);
   background-size: cover;
   background-position: left;
 }
@@ -5538,7 +5537,7 @@ display: none;
   position: relative;
   width: 100vw;
   color: #ad9d7f;
-  background-image: url(./p14main.png);
+  background-image: url(./p14main.webp);
   background-size: cover;
   background-position: bottom;
 }
@@ -5547,7 +5546,7 @@ display: none;
   position: absolute;
   top: -2%;
   width: 100vw;
-  background-image: url(./p141.png);
+  background-image: url(./p141.webp);
   background-size: cover;
   background-position: top;
 }
@@ -5558,7 +5557,7 @@ display: none;
   transform: translate(-50%, -50%);
   height: 36vh;
   width: 100vw;
-  background-image: url(./p144.png);
+  background-image: url(./p144.webp);
   background-size: cover;
   background-position: center;
 }
@@ -5605,7 +5604,7 @@ display: none;
   height: 8vh;
   width: 8vh;
   position: absolute;
-  background-image: url(./p142.png);
+  background-image: url(./p142.webp);
   background-position: center;
   background-size: cover;
   animation-name: p14motion;
@@ -5689,14 +5688,14 @@ display: none;
   bottom: -20%;
   right: 0%;
   font-size: 1.5vh;
-  background-image: url(./p145.png);
+  background-image: url(./p145.webp);
 }
 #p14img2 {
   height: 35vw;
   width: 45vw;
   left: 45%;
   transform: translateX(-50%);
-  background-image: url(./p148.png);
+  background-image: url(./p148.webp);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -5710,7 +5709,7 @@ display: none;
   height: 30%;
   width: 100%;
   position: absolute;
-  background-image: url(./p147.png);
+  background-image: url(./p147.webp);
   background-size: cover;
   background-position: center;
   bottom: 2%;
@@ -5721,7 +5720,7 @@ display: none;
   width: 48vw;
   left: 45%;
   transform: translateX(-50%);
-  background-image: url(./p146.png);
+  background-image: url(./p146.webp);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -5745,7 +5744,7 @@ display: none;
 .coinsp142 {
   height: 100%;
   width: 20%;
-  background-image: url(./p142.png);
+  background-image: url(./p142.webp);
   background-position: center;
   background-size: cover;
 }
@@ -5775,7 +5774,7 @@ display: none;
 #p15upper {
   height: 70vh;
   width: 100%;
-  background-image: url(./p151.png);
+  background-image: url(./p151.webp);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -5845,19 +5844,19 @@ display: none;
   animation-direction: alternate;
 }
 #fish1 {
-  height: 25vh;
-  width: 30vw;
-  background-image: url(p154.png);
+  height: 15vh;
+  width: 17vw;
+  background-image: url(p154.webp);
   top: 40%;
-  left: 2%;
+  left: 10%;
   scale: 1.2;
   animation-duration: 2.5s;
 }
 #fish2 {
-  right: 10%;
-  top: 60%;
+  right: 2%;
+  top: 50%;
   animation-duration: 1.5s;
-  background-image: url(p152.png);
+  background-image: url(p152.webp);
 }
 .bubblep15 {
   height: 3vw;
@@ -5865,7 +5864,7 @@ display: none;
   position: absolute;
   background-size: cover;
   background-position: center;
-  background-image: url(p153.png);
+  background-image: url(p153.webp);
   bottom: 0;
 }
 #bubble1 {
@@ -5938,7 +5937,7 @@ display: none;
   height: 80vh;
   background-size: cover;
   background-position: center;
-  background-image: url(p156.png);
+  background-image: url(p156.webp);
   width: 100vw;
   top: 0vh;
 }
@@ -5947,7 +5946,7 @@ display: none;
   height: 40vh;
   background-size: cover;
   background-position: center;
-  background-image: url(p157.png);
+  background-image: url(p157.webp);
   width: 100vw;
   bottom: 5vh;
 }
@@ -5955,7 +5954,7 @@ display: none;
   height: 100%;
   width: 100vw;
   position: absolute;
-  background-image: url(./p1588.png);
+  background-image: url(./p1588.webp);
   background-size: cover;
   background-position: center;
   z-index: 8;
@@ -6010,8 +6009,1325 @@ display: none;
   position: absolute;
   width: 150vw;
   right: -12vw;
-  background-image: url(p159.png);
+  background-image: url(p159.webp);
   background-size: cover;
   background-position: center;
 }
+
+/* ---------------------page16 starts here------------------ */
+#page16 {
+  height: 130vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  /* background-color: indianred; */
+}
+#p16img {
+  height: 25vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(p6frame.webp);
+  background-size: cover;
+  background-position: center;
+}
+#p16img > img {
+  height: 88%;
+  width: 87%;
+  object-fit: cover;
+  object-position: center;
+}
+#page16 button {
+  background-image: url(./button1.webp);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  padding: 4vw 6vw;
+  font-family: font2;
+  font-size: 2vh;
+  cursor: pointer;
+  z-index: 99;
+  transition: all linear 0.2s;
+}
+#page16 button:hover {
+  background-image: url(./button2.webp);
+  color: #ccc0aa;
+  transition: all linear 0.2s;
+}
+#page16 h1 {
+  text-transform: uppercase;
+  font-size: 5vh;
+  opacity: 0.7;
+  font-family: font1;
+  letter-spacing: -0.3vw;
+  line-height: 1;
+  text-align: center;
+}
+.p16cloud {
+  height: 20vh;
+  width: 100vw;
+  position: absolute;
+  background-image: url(cloud.webp);
+  background-size: cover;
+}
+#p16c1 {
+  background-position: right;
+  top: 75vh;
+  left: -15%;
+}
+#p16c2 {
+  background-position: left;
+  bottom: 0vh;
+  right: -15%;
+}
+
+/* ---------------------page17 starts here------------------ */
+#page17 {
+  height: 160vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+}
+#p17left {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: lightcoral; */
+}
+#p17right {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: lightgrey; */
+}
+.boxp17 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+  width: 95%;
+  position: relative;
+  padding: 0;
+  /* z-index: 999; */
+  /* background-color: greenyellow; */
+}
+.p17img {
+  position: absolute;
+  height: 42%;
+  top: 3%;
+  width: 80%;
+  /* background-color: red; */
+  background-size: cover;
+  background-position: center;
+}
+.contentp17 {
+  padding:0 1%;
+  height: 50%;
+  bottom: 0;
+  width: 100%;
+  /* background-color: seagreen; */
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
+  opacity: 0.7;
+}
+.contentp17 > h1 {
+  font-family: font1;
+  line-height: 1;
+  font-size: 2vh;
+  text-align: center;
+}
+.contentp17 > p {
+  font-family: font4;
+  font-size: 1.3vh;
+  text-align: center;
+}
+#p171img {
+  background-image: url(p171.webp);
+}
+#p172img {
+  background-image: url(p173.webp);
+}
+#p173img {
+  background-image: url(p176.webp);
+}
+#p174img {
+  background-image: url(p172.webp);
+}
+#p175img {
+  background-image: url(p174.webp);
+}
+#p176img {
+  height: 35%;
+  width: 90%;
+  background-image: url(p175.webp);
+}
+#p171 {
+  height: 5vh;
+  width: 5vh;
+  background-image: url(p179.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  z-index: -9;
+  scale: 1.5;
+  transform: rotateZ(40deg);
+  top: -30%;
+}
+#p172 {
+  height: 5vh;
+  width: 5vh;
+  /* z-index: -9; */
+  opacity: 0.7;
+  background-image: url(p1710.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: -15%;
+  scale: 1.5;
+  transform: rotateZ(-60deg);
+  bottom: 25%;
+  z-index: -9;
+}
+#p173 {
+  height: 7vh;
+  width: 7vh;
+  opacity: 0.7;
+  background-image: url(p142.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  scale: 2;
+  transform: rotateZ(-60deg);
+  top: 0%;
+  z-index: -9;
+}
+#p174 {
+  opacity: 0.7;
+  height: 14vh;
+  width: 7vh;
+  background-image: url(p177.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: -5%;
+  scale: 1.5;
+  transform: rotateZ(10deg);
+  top: -5%;
+  z-index: -9;
+}
+#p175 {
+  opacity: 0.7;
+  height: 7vh;
+  width: 9vh;
+  background-image: url(p104.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 5%;
+  scale: 1.5;
+  transform: rotateZ(50deg);
+  bottom: -20%;
+  z-index: -9;
+}
+#p176 {
+  height: 7vh;
+  width: 9vh;
+  background-image: url(p104.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: -16%;
+  scale: 0.8;
+  transform: rotateZ(-80deg);
+  top: -5%;
+  z-index: 9;
+}
+#p177 {
+  height: 5vh;
+  width: 5vh;
+  background-image: url(nav3.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: -20%;
+  scale: 1.2;
+  transform: rotateZ(-50deg);
+  top: -15%;
+}
+#p178 {
+  height: 5vh;
+  width: 5vh;
+  opacity: 0.7;
+  background-image: url(nav3.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 0%;
+  scale: 1.8;
+  transform: rotateZ(60deg);
+  bottom: -10%;
+  z-index: -9;
+}
+#p179 {
+  height: 6vh;
+  width: 6vh;
+  opacity: 0.7;
+  background-image: url(p178.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 0%;
+  scale: 1.8;
+  transform: rotateZ(-20deg);
+  top: -30%;
+  z-index: -9;
+}
+#p1710 {
+  height: 6vh;
+  width: 6vh;
+  background-image: url(p178.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: -10%;
+  scale: 1.5;
+  transform: rotateZ(-70deg);
+  bottom: -10%;
+  z-index: -9;
+  opacity: 0.6;
+}
+
+/* ---------------------page18 starts here------------------ */
+#page18 {
+  height: 150vh;
+  width: 100vw;
+  position: relative;
+}
+#page18 > h1 {
+  position: absolute;
+  text-align: center;
+  font-family: font1;
+  font-size: 5vh;
+  letter-spacing: -0.3vw;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 1;
+  top: 2%;
+  opacity: 0.7;
+}
+#p18boat {
+  height: 25vh;
+  width: 70vw;
+  background-image: url(./p181.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10vh;
+  z-index: 99;
+  transition: all linear 1s;
+  cursor: pointer;
+}
+#p18overlay {
+  height: 40%;
+  width: 100%;
+  transition: all linear 0.2s;
+  bottom: 0;
+  left: 2%;
+  opacity: 0;
+  position: absolute;
+  /* background-color: red; */
+  background-size: cover;
+  background-position: center;
+  background-image: url(p183.webp);
+  scale: 1.4;
+}
+#clickp18 {
+  height: 17vh;
+  width: 22vh;
+  /* background-color: red; */
+  position: absolute;
+  right: -20%;
+  top: -60%;
+  scale: .8;
+  font-size: 1.8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: font4;
+  line-height: 1;
+  text-align: center;
+  background-image: url(p145.webp);
+  background-size: cover;
+  background-position: center;
+}
+#p18left {
+  height: 60vh;
+  width: 47vw;
+  z-index: 999;
+  opacity: 0.8;
+  /* background-color: grey; */
+  position: absolute;
+  left: 2%;
+  display: flex;
+  padding: 5% 0;
+  top: 17%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+#p18right {
+  height: 60vh;
+  width: 47vw;
+  z-index: 999;
+  opacity: 0.8;
+  /* background-color: grey; */
+  position: absolute;
+  right: 2%;
+  padding: 5% 0;
+  display: flex;
+  top: 17%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+@keyframes p18rotate {
+  0% {
+    rotate: 5deg;
+  }
+  100% {
+    rotate: -5deg;
+  }
+}
+.p18box {
+  position: relative;
+  height: 12vh;
+  width: 10vh;
+  background-image: url(p184.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: p18rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.p18box h1 {
+  font-family: font1;
+  font-size: 3vh;
+}
+.p18box > h3 {
+  position: absolute;
+  bottom: -55%;
+  line-height: 1;
+  font-family: font4;
+  text-align: center;
+}
+#p182 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-image: url(p185.webp);
+}
+#p182>h3{
+  position: absolute;
+  bottom: -70%;
+  line-height: 1;
+  font-family: font4;
+  text-align: center;
+}
+#p183 {
+  background-image: url(p186.webp);
+}
+#p183>h3{
+  position: absolute;
+  bottom: -100%;
+  line-height: 1;
+  font-family: font4;
+  text-align: center;
+}
+#p185 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background-image: url(p186.webp);
+}
+#p185>h3{
+  position: absolute;
+  bottom: -70%;
+  line-height: 1;
+  font-family: font4;
+  text-align: center;
+}
+#p186 {
+  background-image: url(p185.webp);
+}
+#p186>h3{
+  position: absolute;
+  bottom: -100%;
+  line-height: 1;
+  font-family: font4;
+  text-align: center;
+}
+/* ---------------------page19 starts here------------------ */
+#page19 {
+  height: 115vh;
+  width: 100vw;
+  position: relative;
+}
+#page19 h1 {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  text-align: center;
+  line-height: 1;
+  font-size: 5vh;
+  font-family: font1;
+  letter-spacing: -0.3vw;
+  opacity: 0.7;
+}
+#p19slide {
+  height: 50vh;
+  width: 100vw;
+  /* background-color: rgba(128, 128, 128, 0.665); */
+  position: absolute;
+  bottom: 15vh;
+  overflow: hidden;
+}
+#p19slider {
+  width: 300vw;
+  height: 100%;
+  /* left: 40%; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: greenyellow; */
+}
+.p19img {
+  height: 41%;
+  width: 45vw;
+  background-image: url(p192.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+.p19img > img {
+  /* border-radius: 50%; */
+  height: 72%;
+  width: 73%;
+  border-radius: 50%;
+}
+.p19box {
+  height: 40%;
+  width: 55vw;
+  background-image: url(p193.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: left;
+  padding: 1% 2%;
+  opacity: 0.7;
+}
+.p19box h2 {
+  letter-spacing: -0.2vw;
+  font-family: font1;
+  line-height: 1;
+  font-size: 2.5vh;
+  white-space: nowrap;
+}
+.p19box p {
+  font-family: font4;
+  font-size: 1vh;
+}
+.p19mid {
+  height: 30%;
+  width: 90%;
+  display: flex;
+  /* background-color: red; */
+}
+.p19mid p {
+  display: flex;
+  position: relative;
+  font-family: font4;
+  left: 15%;
+}
+.p19mid p::before {
+  content: "";
+  position: absolute;
+  /* background-color: green; */
+  left: -10%;
+  background-image: url(./p191.webp);
+  background-position: center;
+  background-size: cover;
+  height: 1vh;
+  width: 1vh;
+}
+.p19left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: grey; */
+}
+.p19right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: rgb(119, 62, 62); */
+}
+
+
+/* ---------------------page20 starts here------------------ */
+#page20 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+#page20 > h1 {
+  position: absolute;
+  white-space: nowrap;
+  letter-spacing: -0.3vw;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: font1;
+  font-size: 3vh;
+  line-height: 1;
+  opacity: 0.8;
+}
+#page20 > p {
+  position: absolute;
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: font4;
+  font-size: 1.5vh;
+  /* line-height: 1; */
+  top: 15%;
+  opacity: 0.8;
+}
+#p20c1 {
+  height: 20vh;
+  width: 60vw;
+  background-image: url(./cloud.webp);
+  background-position: right;
+  background-size: cover;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  scale: 1.2;
+}
+#p20c2 {
+  height: 20vh;
+  width: 60vw;
+  background-image: url(./cloud.webp);
+  background-position: left;
+  background-size: cover;
+  position: absolute;
+  bottom: 10%;
+  right: -10%;
+  scale: 1.2;
+}
+#page20 > h2 {
+  position: absolute;
+  font-family: font5;
+  left: 25%;
+  line-height: 1;
+  bottom: 15%;
+  opacity: 0.7;
+  scale: 1.1;
+  font-size: 2vh;
+  rotate: -10deg;
+}
+#page20 > h2::before {
+  content: "";
+  height: 4vh;
+  width: 4vh;
+  top: -7vh;
+  rotate: -90deg;
+  left: 0vh;
+  position: absolute;
+  /* background-color: red; */
+  background-image: url(p103.webp);
+  background-size: cover;
+  background-position: center;
+}
+#p20gun{
+  height: 8vh;
+  width: 40vw;
+  z-index: 9;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  scale: 1.2;
+  /* rotate: -4deg; */
+  /* opacity: .6; */
+  background-image: url(./p201.webp);
+}
+#p201 {
+  height: 2vh;
+  width: 1.5vh;
+  position: absolute;
+  left: 33%;
+  /* rotate: 20deg; */
+  transform-origin: 50% 50%;
+  background-image: url(p202.webp);
+  background-position: center;
+  background-size: cover;
+}
+#p202 {
+  height: 2.5vh;
+  width: 2.5vh;
+  z-index: -9;
+  position: absolute;
+  left: 13%;
+  scale: .7;
+  cursor: pointer;
+  bottom: 27.3%;
+  z-index: 99;
+  /* rotate: 20deg; */
+  transform-origin: 50% 50%;
+  background-image: url(p204.webp);
+  background-position: center;
+  background-size: cover;
+}
+#bullet {
+  height: 1vh;
+  width: 4vh;
+  right: 55%;
+  z-index: 8;
+  top: 68.5%;
+  background-image: url(./p203.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+#bullet2{
+  height: 1vh;
+  width: 4vh;
+  right: 55%;
+  z-index: 8;
+  top: 68.5%;
+  background-image: url(./p203.webp);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+/* ---------------------page21 starts here------------------ */
+#page21 {
+  height: 250vh;
+  width: 100vw;
+  position: relative;
+  background-image: url(p14main.webp);
+  background-size: cover;
+  background-position: bottom;
+}
+#p21upper {
+  height: 20vh;
+  width: 100vw;
+  background-image: url(p141.webp);
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+  top: -2%;
+}
+#page21 > h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4vh;
+  line-height: 1;
+  top: 10%;
+  font-family: font1;
+  white-space: nowrap;
+  color: #ad9d7f;
+  letter-spacing: -0.3vw;
+  opacity: 0.9;
+  text-align: center;
+}
+#p21bottom {
+  padding: 0 6vw;
+  height: 180vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: red; */
+}
+.p21box {
+  position: relative;
+  width: 90vw;
+  height: 57vh;
+  color: #ad9d7f;
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.p21u > img {
+  height: 12vh;
+  rotate: 90deg;
+  cursor: pointer;
+  z-index: 99;
+  scale: .5;
+  position: relative;
+  transition: all linear 1s;
+}
+@keyframes p212motion {
+  0% {
+    transform: translateY(15%);
+  }
+  40% {
+    transform: translateY(-15%);
+  }
+  80% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+#p212 > img {
+  scale: .3;
+  rotate: 0deg;
+}
+#p212 > img:hover {
+  animation-name: p212motion;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes p213motion {
+  0% {
+    rotate: 15deg;
+  }
+  40% {
+    rotate: -15deg;
+  }
+  80% {
+    rotate: 15deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+#p213 > img {
+  scale: 0.3;
+  rotate: 0deg;
+}
+#p213 > img:hover {
+  animation-name: p213motion;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+.p21u > h3 {
+  font-size: 3vh;
+  font-family: font4;
+}
+.p21u > h2 {
+  font-family: font1;
+  font-size:1.5vh;
+  letter-spacing: -0.1vw;
+}
+.p21u > h1 {
+  font-family: font1;
+  font-size: 3vh;
+  letter-spacing: -0.2vw;
+  padding: 7% 0;
+}
+.p21mid {
+  top: 0;
+  height:30vh;
+  width: 30vh;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  padding: 10% 0;
+  /* background-color: green; */
+  background-image: url(./p2144.svg);
+}
+.p21mid p {
+  font-size: 1.4vh;
+  font-family: font4;
+  margin-top: 5%;
+}
+#p21midlast > h4 {
+  font-family: font5;
+  position: absolute;
+  right: 15%;
+  bottom: -15%;
+  line-height: 1;
+  rotate: -10deg;
+  font-size: 2vh;
+  /* transform: translateX(-50%); */
+}
+#p21bottom button {
+  background-image: url(./button1.webp);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  height: 5vh;
+  width: 17vh;
+  font-family: font2;
+  font-size: 1.2vh;
+  cursor: pointer;
+  bottom: 5vh;
+  z-index: 99;
+  transition: all linear 0.2s;
+}
+#p21bottom button:hover {
+  background-image: url(./button2.webp);
+  color: #ccc0aa;
+  transition: all linear 0.2s;
+}
+
+/* ---------------------page22 starts here------------------ */
+#page22 {
+  height: 180vh;
+  width: 100vw;
+  position: relative;
+}
+#page22 > h1 {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  font-size: 3.5vh;
+  font-family: font1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: -0.3vw;
+  top: 12%;
+  line-height: 1;
+}
+#p22box {
+  height: 28vh;
+  position: absolute;
+  width: 90vw;
+  background-image: url(./p221.webp);
+  background-position: center;
+  background-size: cover;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 35%;
+}
+#p22l {
+  height: 90%;
+  width: 40%;
+  position: absolute;
+  left: 10%;
+  display: flex;
+  top: 5%;
+  font-size: .8vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgba(240, 128, 128, 0.615); */
+}
+#p22r {
+  height: 70%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  /* background-color: rgba(214, 240, 128, 0.615); */
+  top: 5%;
+  font-size: .8vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.p22boxx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  /* position: absolute; */
+  flex-direction: column;
+  font-family: font5;
+  text-align: center;
+}
+.p22boxx h2 {
+  transform: translateX(100%);
+  font-size: 1.3vw;
+}
+.p22boxx p {
+  margin-bottom: 1vw;
+}
+@keyframes p22motion {
+  0% {
+    rotate: 15deg;
+  }
+  100% {
+    rotate: 25deg;
+  }
+}
+#p22spects {
+  height: 3vh;
+  width: 20vw;
+  /* background-color: red; */
+  scale: 2.8;
+  position: absolute;
+  top: 47%;
+  z-index: 9;
+  transform-origin: center;
+  /* rotate: 25deg; */
+  right: 5%;
+  animation-name: p22motion;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  background-image: url(p222.webp);
+  background-size: cover;
+  background-position: center;
+}
+#p22ll > img {
+  height: 3vh;
+  transform: translateX(150%);
+  opacity: 0.7;
+}
+
+/* ---------------------page23 starts here------------------ */
+#page23{
+  height: 130vh;
+  width: 100vw;
+  position: relative;
+}
+#page23>h1{
+  top: 5vh;
+  position: absolute;
+  white-space: nowrap;
+  font-family: font1;
+  text-align: center;
+  opacity: .7;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  font-size: 3vh;
+  letter-spacing: -.4vw;
+  line-height: 1;
+}
+#p23l{
+  height: 84vh;
+  width:90%;
+  position: absolute;
+  left: 50%;
+  bottom: 20vh;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  transform: translateX(-50%);
+}
+.p23content{
+  position: relative;
+  height: 14vh;
+  padding: 2vw 0 ;
+  z-index: 999;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: grey; */
+  width: 100%;
+  border-top: .1vw solid #111;
+}
+#p23l:nth-last-child(1){
+  border-bottom: 1px solid #111;
+}
+.p23content p{
+  /* margin-bottom: 2vw; */
+  font-family: font4;
+  font-size: 1.5vh;
+  padding: 1vw;
+}
+.p23content i{
+  font-size: 2.5vh;
+  opacity: .8;
+  transition: all linear .2s;
+  /* background-color: red; */
+  border-radius: 50%;
+}
+.p23content:hover  i{
+  transition: all linear .2s;
+  background-color: #111;
+  color: #f3dede;
+}
+.p23content h4{
+  position: absolute;
+  bottom: 1vw;
+  opacity: 0;
+  left: 1vw; 
+  font-size: 1.2vh;
+  /* display: none; */
+  transition: all linear .2s;
+  font-family: font4;
+}
+
+/* ---------------------page24 starts here------------------ */
+#page24{
+  height: 110vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10vw 0;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  background-image: url(page2bg.webp);
+  background-size: cover;
+  background-position: bottom;
+}
+#page24>h1{
+  color:#ad9d7f;
+  font-size: 5vh;
+  line-height: 1;
+  font-size: 5vh;
+  position: absolute;
+  top: 50vh;
+  z-index: 999;
+  font-family: font1;
+}
+#page24>p{
+  color: #ad9d7f;
+  font-size: 2vh;
+  font-family: font4;
+  position: absolute;
+  top: 65vh;
+}
+#p24img1{
+  height: 15vh;
+  width: 100vw;
+  background-image: url(p141.webp);
+  top: 1vh;
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+}
+#page24 button {
+  background-image: url(./button1.webp);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  padding: 2vh 4.4vh;
+  font-family: font2;
+  font-size: 1.2vh;
+  cursor: pointer;
+  z-index: 99;
+  transition: all linear 0.2s;
+  position: absolute;
+  top:75vh;
+}
+#page24 button:hover {
+  background-image: url(./button2.webp);
+  color: #ccc0aa;
+  transition: all linear 0.2s;
+}
+#p24parrot{
+  position: absolute;
+  left:-5vh;
+  /* rotate: 45deg; */
+  transform-origin: center;
+  top: 10vw;
+  height: 60vh;
+  width: 90vw;
+  z-index: 99;
+  background-image: url(p177.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* ---------------------page25 starts here------------------ */
+#page25{
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#p25u{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10vw;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: indianred; */
+  z-index: 99;
+}
+#p25left{
+  height: 31vh;
+  width: 19vh;
+  background-image: url(p242.webp);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+#p25left>img{
+position: absolute;
+height: 75%;
+width: 70%;
+left: 50%;
+top: 58%;
+transform: translate(-50%,-50%);
+border-radius: 50%;
+object-fit: cover;
+object-position: center;
+}
+#p25l{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  width: 100vw;
+  color: #ad9d7f;
+  background-color: #111;
+  font-family: font5;
+}
+#p25rnav{
+  display: flex;
+  font-family: font2;
+  gap: 1vw;
+  margin-bottom: 2vw;
+}
+#p25rl{
+  display: flex;
+}
+#p25rnav>h3{
+  cursor: pointer;
+}
+#p25rlnav{
+  /* background-color: red; */
+  height: 15vh;
+  display: flex;
+  margin-left: 2vw;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#p25rlnav>p{
+  font-family: font2;
+  cursor: pointer;
+}
+#p25rlnav>p>a{
+color: #111;
+text-decoration: none;
+}
+#p25rlimg{
+  height: 15vh;
+  width: 15vh;
+  /* background-color: grey; */
+  background-image: url(./p241.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#p25rlimg::after{
+  content: "by Ashish Anand";
+  position: absolute;
+  bottom: 0vh;
+  left: -50%;
+  font-size: 1.5vh;
+  font-family: font4;
+  
+}
+#p25rlimg>img{
+height: 70%;
+width: 70%;
+object-fit: cover;
+object-position: center;
+border-radius: 50%;
+background-color: black;
+padding: .5vw;
+}
+#p25center{
+  display: flex;
+  /* align-items: center; */
+  height: 40%;
+  text-align: left;
+  position: relative;
+  /* background-color: red; */
+  justify-content: space-around;
+  flex-direction: column;
+}
+#p25center>h3{
+  cursor: pointer;
+  font-size: 2vh;
+  font-family: font2;
+}
+#p25center>h2{
+  font-family: font5;
+  text-align: center;
+  line-height: 1;
+  rotate: -5deg;
+  opacity: .7;
+  font-size: 1.5vh;
+}
+#p25center>p{
+  font-family: font4;
+  font-size: 1.5vh;
+}
+#p25l>h1{
+  position: absolute;
+/* text-align: right !important; */
+right: 20%;
+bottom: 1vh;
+font-size: 2vh;
+}
+
+
 }

@@ -800,7 +800,7 @@ gsap.from("#bubble10", {
   },
 });
 gsap.to("#overlayp15", {
-  scale: 20,
+  scale: 15,
   opacity: 0,
   scrollTrigger: {
     scroller: "#main",
@@ -912,11 +912,11 @@ var p18overlay = document.querySelector("#p18overlay");
 var p18flag = 0;
 p18boat.addEventListener("click", () => {
   if (p18flag == 0) {
-    p18boat.style.backgroundImage = "url(./p182.png)";
+    p18boat.style.backgroundImage = "url(./p182.webp)";
     p18overlay.style.opacity = 1;
     p18flag = 1;
   } else {
-    p18boat.style.backgroundImage = "url(./p181.png)";
+    p18boat.style.backgroundImage = "url(./p181.webp)";
     p18overlay.style.opacity = 0;
     p18flag = 0;
   }
