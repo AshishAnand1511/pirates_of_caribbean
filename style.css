@@ -849,42 +849,42 @@ body {
   right: 3%;
   scale: 1.3;
   opacity: 0.7;
-  background-image: url(./kiss1.webp);
+  background-image: url(./kiss1.png);
 }
 #p52 {
   top: 30%;
   right: 10%;
-  background-image: url(./kiss1.webp);
+  background-image: url(./kiss1.png);
 }
 #p53 {
   top: 55%;
   right: 20%;
   scale: 1.5;
-  background-image: url(./kiss1.webp);
+  background-image: url(./kiss1.png);
 }
 #p54 {
   top: 40%;
   left: 20%;
   opacity: 0.5;
   scale: 1.4;
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
 }
 #p55 {
   scale: 0.8;
   top: 0%;
   left: 10%;
   opacity: 0;
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
 }
 #p56 {
   top: 60%;
   left: 3%;
   scale: 0.8;
   opacity: 0.9;
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
 }
 #p57 {
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
   scale: 1.5;
   left: 50%;
   top: 10%;
@@ -892,7 +892,7 @@ body {
   transform: translateX(-50%);
 }
 #p58 {
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
   scale: 1.5;
   left: 30%;
   bottom: 15%;
@@ -978,7 +978,7 @@ body {
   height: 7vw;
   width: 10vw;
   /* background-color: red; */
-  background-image: url(kiss1.webp);
+  background-image: url(kiss1.png);
   background-size: cover;
   background-position: center;
   left: 45%;
@@ -990,7 +990,7 @@ body {
   height: 10vw;
   width: 13vw;
   /* background-color: red; */
-  background-image: url(kiss2.webp);
+  background-image: url(kiss2.png);
   background-size: cover;
   background-position: center;
   left: 60%;
@@ -1242,7 +1242,7 @@ body {
 }
 #p9k1 {
   height: 15vh;
-  background-image: url(kiss1.webp);
+  background-image: url(kiss1.png);
   background-size: cover;
   background-position: center;
   width: 10vw;
@@ -1290,7 +1290,7 @@ body {
 #p9skullkiss {
   height: 8vh;
   width: 5vw;
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
   position: absolute;
   right: 28%;
   top: 35%;
@@ -4442,42 +4442,42 @@ display: none;
   right: 3%;
   scale: 1.3;
   opacity: 0.7;
-  background-image: url(./kiss1.webp);
+  background-image: url(./kiss1.png);
 }
 #p52 {
   top: 30%;
   right: 10%;
-  background-image: url(./kiss1.webp);
+  background-image: url(./kiss1.png);
 }
 #p53 {
   top: 55%;
   right: 20%;
   scale: 1.5;
-  background-image: url(./kiss1.webp);
+  background-image: url(./kiss1.png);
 }
 #p54 {
   top: 40%;
   left: 20%;
   opacity: 0.5;
   scale: 1.4;
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
 }
 #p55 {
   scale: 0.8;
   top: 0%;
   left: 10%;
   opacity: 0;
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
 }
 #p56 {
   top: 60%;
   left: 3%;
   scale: 0.8;
   opacity: 0.9;
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
 }
 #p57 {
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
   scale: 1.5;
   left: 50%;
   top: 10%;
@@ -4485,7 +4485,7 @@ display: none;
   transform: translateX(-50%);
 }
 #p58 {
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
   scale: 1.5;
   left: 30%;
   bottom: 15%;
@@ -4573,7 +4573,7 @@ display: none;
   height: 7vw;
   width: 10vw;
   /* background-color: red; */
-  background-image: url(kiss1.webp);
+  background-image: url(kiss1.png);
   background-size: cover;
   background-position: center;
   left: 45%;
@@ -4585,7 +4585,7 @@ display: none;
   height: 10vw;
   width: 13vw;
   /* background-color: red; */
-  background-image: url(kiss2.webp);
+  background-image: url(kiss2.png);
   background-size: cover;
   background-position: center;
   left: 60%;
@@ -4843,7 +4843,7 @@ display: none;
 #p9k1 {
   height: 10vh;
   width: 20vw;
-  background-image: url(kiss1.webp);
+  background-image: url(kiss1.png);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -4890,7 +4890,7 @@ display: none;
 #p9skullkiss {
   height: 5vh;
   width: 12vw;
-  background-image: url(./kiss2.webp);
+  background-image: url(./kiss2.png);
   position: absolute;
   right: 45%;
   top: 57%;
