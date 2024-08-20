@@ -38,31 +38,31 @@ body {
 /* ----------------loading starts here-------------- */
 @keyframes loadinganime {
   0% {
-    background-image: url(./nav3.webp);
+    background-image: url(./nav3.webp) !important;
   }
   15% {
-    background-image: url(./nav1.webp);
+    background-image: url(./nav1.webp) !important;
   }
   30% {
-    background-image: url(./nav3.webp);
+    background-image: url(./nav3.webp) !important;
   }
   45% {
-    background-image: url(./nav1.webp);
+    background-image: url(./nav1.webp) !important;
     top: 0;
   }
   60% {
-    background-image: url(./nav3.webp);
+    background-image: url(./nav3.webp) !important;
     top: 0;
   }
   75% {
-    background-image: url(./nav1.webp);
+    background-image: url(./nav1.webp) !important;
     top: 0;
   }
   87% {
-    background-image: url(./nav3.webp);
+    background-image: url(./nav3.webp) !important;
   }
   100% {
-    background-image: url(./nav1.webp);
+    background-image: url(./nav1.webp) !important;
   }
 }
 @keyframes loadup {
@@ -99,12 +99,12 @@ body {
 #loverlay {
   height: 100%;
   width: 100%;
-  background-image: url(./noise.gif);
+  background-image: url(./noise.gif) !important;
   opacity: 0.1;
   position: absolute;
 }
 #limage {
-  background-image: url(./nav3.webp);
+  background-image: url(./nav3.webp) !important;
   background-size: cover;
   background-position: center;
   height: 10vw;
@@ -168,7 +168,7 @@ body {
   top: 50%;
   transform: translate(-50%,-50%);
   /* background-color: grey; */
-  background-image: url(hijack\ img.webp);
+  background-image: url(hijack\ img.webp) !important;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -223,7 +223,7 @@ body {
   position: absolute;
   height: 10vw;
   width: 10vw;
-  background-image: url(./p241.webp);
+  background-image: url(./p241.webp) !important;
   background-size: cover;
   background-position: center;
   /* display: flex; */
@@ -267,7 +267,7 @@ body {
 #nav {
   height: 42vh;
   width: 60vw;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -309,7 +309,7 @@ body {
   transform: translateX(-50%);
   height: 6vw;
   width: 6vw;
-  background-image: url(./nav1.webp);
+  background-image: url(./nav1.webp) !important;
   z-index: 999;
   background-size: cover;
   cursor: pointer;
@@ -328,7 +328,7 @@ body {
   top: 25%;
   opacity: 1;
   position: absolute;
-  background-image: url(./nav4.webp);
+  background-image: url(./nav4.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -352,7 +352,7 @@ body {
   position: absolute;
   top: -140%;
   left: -130%;
-  background-image: url(nav2.webp);
+  background-image: url(nav2.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -367,7 +367,7 @@ body {
   height: 100%;
   position: absolute;
   width: 100%;
-  background-image: url(./noise.gif);
+  background-image: url(./noise.gif) !important;
   opacity: 0.1;
   z-index: 99;
 }
@@ -391,7 +391,7 @@ body {
   position: absolute;
   left: -35rem;
   top: 5rem;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: right;
 }
@@ -401,7 +401,7 @@ body {
   position: absolute;
   top: 18rem;
   right: -30rem;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: left;
 }
@@ -431,7 +431,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -445,7 +445,7 @@ body {
   transition: all linear 0.2s;
 }
 #page1 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -460,7 +460,7 @@ body {
 #p1boat {
   height: 13vh;
   width: 25vh;
-  background-image: url(./p1boat.webp);
+  background-image: url(./p1boat.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -482,7 +482,7 @@ body {
   overflow: hidden;
   height: 125vh;
   width: 100%;
-  background-image: url(./page2bg.webp);
+  background-image: url(./page2bg.webp) !important;
   background-size: cover;
   background-position: right;
   position: relative;
@@ -491,7 +491,7 @@ body {
 .shutterp1 {
   height: 70vh;
   width: 65vh;
-  background-image: url(./shutterstock.webp);
+  background-image: url(./shutterstock.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -552,7 +552,7 @@ body {
   position: absolute;
   bottom: 20vh;
   opacity: 0.5;
-  background-image: url(./p3w2.webp);
+  background-image: url(./p3w2.webp) !important;
   background-size: cover;
   background-position: center;
   /* z-index: -9; */
@@ -581,7 +581,7 @@ body {
   height: 92%;
   width: 55%;
   /* z-index: ; */
-  background-image: url(./p3boat.webp);
+  background-image: url(./p3boat.webp) !important;
   background-position: right;
   background-size: 130%;
   background-repeat: no-repeat;
@@ -610,7 +610,7 @@ body {
   left: -13%;
   position: absolute;
   /* bottom: 20vh; */
-  background-image: url(./p3w1.webp);
+  background-image: url(./p3w1.webp) !important;
   background-size: cover;
   background-position: center;
   animation-name: p3motion2;
@@ -668,7 +668,7 @@ body {
   left: 60%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -682,7 +682,7 @@ body {
   transition: all linear 0.2s;
 }
 #page3 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
   z-index: 999;
@@ -699,7 +699,7 @@ body {
   position: absolute;
   height: 10vw;
   width: 15vw;
-  background-image: url(./p41.webp);
+  background-image: url(./p41.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -711,7 +711,7 @@ body {
   position: absolute;
   height: 13vw;
   width: 18vw;
-  background-image: url(./p42.webp);
+  background-image: url(./p42.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -723,7 +723,7 @@ body {
   position: absolute;
   height: 13vw;
   width: 18vw;
-  background-image: url(./p43.webp);
+  background-image: url(./p43.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -735,7 +735,7 @@ body {
   position: absolute;
   height: 13vw;
   width: 18vw;
-  background-image: url(./p44.webp);
+  background-image: url(./p44.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -747,7 +747,7 @@ body {
   position: absolute;
   height: 10vw;
   width: 15vw;
-  background-image: url(./p45.webp);
+  background-image: url(./p45.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -759,7 +759,7 @@ body {
   position: absolute;
   height: 11vw;
   width: 15vw;
-  background-image: url(./p46.webp);
+  background-image: url(./p46.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -796,7 +796,7 @@ body {
   position: absolute;
   left: 50%;
   bottom: 0;
-  background-image: url(./p4main1.jpg);
+  background-image: url(./p4main1.jpg) !important;
   background-size: cover;
   background-position: center;
   transform: translateX(-50%);
@@ -810,7 +810,7 @@ body {
   right: 18%;
   bottom: 1.5%;
   z-index: 9;
-  background-image: url(./p4main2.webp);
+  background-image: url(./p4main2.webp) !important;
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center;
@@ -820,7 +820,7 @@ body {
   position: absolute;
   height: 11vw;
   width: 15vw;
-  background-image: url(./p46.webp);
+  background-image: url(./p46.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -849,42 +849,42 @@ body {
   right: 3%;
   scale: 1.3;
   opacity: 0.7;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.png) !important;
 }
 #p52 {
   top: 30%;
   right: 10%;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.png) !important;
 }
 #p53 {
   top: 55%;
   right: 20%;
   scale: 1.5;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.png) !important;
 }
 #p54 {
   top: 40%;
   left: 20%;
   opacity: 0.5;
   scale: 1.4;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
 }
 #p55 {
   scale: 0.8;
   top: 0%;
   left: 10%;
   opacity: 0;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
 }
 #p56 {
   top: 60%;
   left: 3%;
   scale: 0.8;
   opacity: 0.9;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
 }
 #p57 {
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
   scale: 1.5;
   left: 50%;
   top: 10%;
@@ -892,7 +892,7 @@ body {
   transform: translateX(-50%);
 }
 #p58 {
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
   scale: 1.5;
   left: 30%;
   bottom: 15%;
@@ -931,7 +931,7 @@ body {
   width: 50vw;
   height: 30vw;
   top: 20%;
-  background-image: url(./p6gif.gif);
+  background-image: url(./p6gif.gif) !important;
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -943,7 +943,7 @@ body {
   width: 54vw;
   height: 32vw;
   top: 20%;
-  background-image: url(./p6frame.webp);
+  background-image: url(./p6frame.webp) !important;
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -957,7 +957,7 @@ body {
   bottom: 0%;
   position: absolute;
   /* background-color: red; */
-  background-image: url(cloud.webp);
+  background-image: url(cloud.webp) !important;
   background-size: cover;
   background-position: right;
   z-index: 9;
@@ -969,7 +969,7 @@ body {
   top: 0%;
   position: absolute;
   /* background-color: red; */
-  background-image: url(cloud.webp);
+  background-image: url(cloud.webp) !important;
   background-size: cover;
   background-position: left;
   z-index: 9;
@@ -978,7 +978,7 @@ body {
   height: 7vw;
   width: 10vw;
   /* background-color: red; */
-  background-image: url(kiss1.png);
+  background-image: url(kiss1.png) !important;
   background-size: cover;
   background-position: center;
   left: 45%;
@@ -990,7 +990,7 @@ body {
   height: 10vw;
   width: 13vw;
   /* background-color: red; */
-  background-image: url(kiss2.png);
+  background-image: url(kiss2.png) !important;
   background-size: cover;
   background-position: center;
   left: 60%;
@@ -1011,7 +1011,7 @@ body {
   width: 30vw;
   position: absolute;
   right: 5%;
-  background-image: url(p7img.webp);
+  background-image: url(p7img.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1074,7 +1074,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -1088,7 +1088,7 @@ body {
   transition: all linear 0.2s;
 }
 #page7 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -1152,60 +1152,60 @@ body {
   }
 }
 #c1 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 10%;
   left: 20%;
 }
 #c2 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 60%;
   left: 25%;
 }
 #c3 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 35%;
   left: 5%;
   scale: 1.4;
 }
 #c4 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 70%;
   left: 2%;
 }
 #c5 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 5%;
   left: 2%;
 }
 #c6 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 10%;
   right: 20%;
 }
 #c7 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 60%;
   right: 25%;
   scale: 1.4;
 }
 #c8 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 35%;
   right: 15%;
 }
 #c9 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 70%;
   right: 2%;
 }
 #c10 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 5%;
   right: 2%;
   scale: 1.4;
 }
 #c11 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   scale: 0.8;
   top: 35%;
   right: 0%;
@@ -1242,7 +1242,7 @@ body {
 }
 #p9k1 {
   height: 15vh;
-  background-image: url(kiss1.png);
+  background-image: url(kiss1.png) !important;
   background-size: cover;
   background-position: center;
   width: 10vw;
@@ -1259,7 +1259,7 @@ body {
   left: 10%;
   top: 35%;
   rotate: 20deg;
-  background-image: url(p9img2.webp);
+  background-image: url(p9img2.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1271,7 +1271,7 @@ body {
   left: 10%;
   top: 36%;
   rotate: 10deg;
-  background-image: url(./p6frame.webp);
+  background-image: url(./p6frame.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1282,7 +1282,7 @@ body {
   position: absolute;
   right: 10%;
   top: 30%;
-  background-image: url(./p9img1.webp);
+  background-image: url(./p9img1.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: grey; */
@@ -1290,7 +1290,7 @@ body {
 #p9skullkiss {
   height: 8vh;
   width: 5vw;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
   position: absolute;
   right: 28%;
   top: 35%;
@@ -1306,7 +1306,7 @@ body {
   left: 50%;
   top: 60%;
   rotate: 10deg;
-  background-image: url(p9img4.gif);
+  background-image: url(p9img4.gif) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1318,7 +1318,7 @@ body {
   left: 48%;
   top: 59%;
   rotate: 10deg;
-  background-image: url(./p6frame.webp);
+  background-image: url(./p6frame.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1328,7 +1328,7 @@ body {
   right: 0;
   /* background-color: red; */
   position: absolute;
-  background-image: url(p9img3.webp);
+  background-image: url(p9img3.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1422,7 +1422,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -1436,7 +1436,7 @@ body {
   transition: all linear 0.2s;
 }
 #page10 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -1449,7 +1449,7 @@ body {
   left: -10%;
   top: 20%;
   /* background-color: red; */
-  background-image: url(./p10tree.webp);
+  background-image: url(./p10tree.webp) !important;
   background-size: cover;
   background-position: center;
   transform-origin: 50%, 50%;
@@ -1476,7 +1476,7 @@ body {
   width: 45vw;
   height: 15vw;
   /* background-color: red; */
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -1487,7 +1487,7 @@ body {
   right: -10%;
   height: 15vw;
   /* background-color: red; */
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -1500,7 +1500,7 @@ body {
   transform: translateX(-50%);
   height: 15vw;
   /* background-color: red; */
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -1512,7 +1512,7 @@ body {
   position: absolute;
   right: 10%;
   bottom: 30%;
-  background-image: url(./p104.webp);
+  background-image: url(./p104.webp) !important;
   background-size: cover;
   background-position: center;
   transform-origin: 50%, 50%;
@@ -1549,7 +1549,7 @@ body {
   /* background-color: red; */
   background-position: center;
   background-size: cover;
-  background-image: url(./p101.webp);
+  background-image: url(./p101.webp) !important;
   bottom: 15%;
   position: absolute;
 }
@@ -1559,7 +1559,7 @@ body {
   left: 20%;
   rotate: 45deg;
   transition: all linear 1s;
-  background-image: url(./p103.webp);
+  background-image: url(./p103.webp) !important;
   background-size: cover;
   background-position: center;
   bottom: 15%;
@@ -1593,7 +1593,7 @@ body {
 #p103 {
   height: 70vh;
   transition: all linear 2s;
-  background-image: url(./p102.webp);
+  background-image: url(./p102.webp) !important;
   background-size: cover;
   background-position: bottom;
   position: absolute;
@@ -1611,7 +1611,7 @@ body {
   z-index: 99;
   position: absolute;
   background-size: cover;
-  background-image: url(./p10water.webp);
+  background-image: url(./p10water.webp) !important;
 }
 
 /* ---------------------page11 starts here------------------ */
@@ -1657,7 +1657,7 @@ body {
   top: 30%;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url(./p111.webp);
+  background-image: url(./p111.webp) !important;
 }
 #cp112 {
   height: 77vh;
@@ -1670,7 +1670,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p112.webp);
+  background-image: url(./p112.webp) !important;
 }
 #cp113 {
   height: 110vh;
@@ -1683,7 +1683,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p117.webp);
+  background-image: url(./p117.webp) !important;
 }
 #cp114 {
   height: 30vh;
@@ -1696,13 +1696,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p116.webp);
+  background-image: url(./p116.webp) !important;
 }
 .p11c {
   height: 40vh;
   width: 30vh;
   position: absolute;
-  background-image: url(./p113.webp);
+  background-image: url(./p113.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1766,7 +1766,7 @@ body {
   position: absolute;
   height: 20vh;
   width: 100%;
-  background-image: url(./p121.webp);
+  background-image: url(./p121.webp) !important;
   background-size: cover;
   background-position: center;
   top: -10%;
@@ -1775,7 +1775,7 @@ body {
   height: 30vh;
   width: 55vh;
   /* background-color: red; */
-  background-image: url(./p122.webp);
+  background-image: url(./p122.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -1819,28 +1819,28 @@ body {
   /* background-color: grey; */
 }
 #imgp121 {
-  background-image: url(./p123.webp);
+  background-image: url(./p123.webp) !important;
 }
 #imgp122 {
-  background-image: url(./p124.webp);
+  background-image: url(./p124.webp) !important;
 }
 #imgp123 {
-  background-image: url(./p125.webp);
+  background-image: url(./p125.webp) !important;
 }
 #imgp124 {
-  background-image: url(./p126.webp);
+  background-image: url(./p126.webp) !important;
 }
 #imgp125 {
-  background-image: url(./p127.webp);
+  background-image: url(./p127.webp) !important;
 }
 #imgp126 {
-  background-image: url(./p128.webp);
+  background-image: url(./p128.webp) !important;
 }
 #imgp127 {
-  background-image: url(./p129.webp);
+  background-image: url(./p129.webp) !important;
 }
 #imgp128 {
-  background-image: url(./p1210.webp);
+  background-image: url(./p1210.webp) !important;
 }
 
 /* ---------------------page13 starts here------------------ */
@@ -1862,7 +1862,7 @@ body {
 #p13img {
   height: 50vh;
   width: 40vw;
-  background-image: url(./p6frame.webp);
+  background-image: url(./p6frame.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -1877,7 +1877,7 @@ body {
   left: 49%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(p131.gif);
+  background-image: url(p131.gif) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1885,7 +1885,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -1899,7 +1899,7 @@ body {
   transition: all linear 0.2s;
 }
 #page13 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -1910,7 +1910,7 @@ body {
   top: 5%;
   z-index: 9;
   width: 59vw;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: right;
 }
@@ -1921,7 +1921,7 @@ body {
   top: 30%;
   z-index: 9;
   width: 59vw;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: left;
 }
@@ -1932,7 +1932,7 @@ body {
   position: relative;
   width: 100vw;
   color: #ad9d7f;
-  background-image: url(./p14main.webp);
+  background-image: url(./p14main.webp) !important;
   background-size: cover;
   background-position: bottom;
 }
@@ -1941,7 +1941,7 @@ body {
   position: absolute;
   top: -3%;
   width: 100vw;
-  background-image: url(./p141.webp);
+  background-image: url(./p141.webp) !important;
   background-size: cover;
   background-position: top;
 }
@@ -1952,7 +1952,7 @@ body {
   transform: translate(-50%, -50%);
   height: 120vh;
   width: 100vw;
-  background-image: url(./p144.webp);
+  background-image: url(./p144.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -1996,7 +1996,7 @@ body {
   height: 20vh;
   width: 20vh;
   position: absolute;
-  background-image: url(./p142.webp);
+  background-image: url(./p142.webp) !important;
   background-position: center;
   background-size: cover;
   animation-name: p14motion;
@@ -2077,14 +2077,14 @@ body {
   position: absolute;
   bottom: 5%;
   right: 15%;
-  background-image: url(./p145.webp);
+  background-image: url(./p145.webp) !important;
 }
 #p14img2 {
   height: 30vw;
   width: 35vw;
   left: 45%;
   transform: translateX(-50%);
-  background-image: url(./p148.webp);
+  background-image: url(./p148.webp) !important;
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -2098,7 +2098,7 @@ body {
   height: 30%;
   width: 100%;
   position: absolute;
-  background-image: url(./p147.webp);
+  background-image: url(./p147.webp) !important;
   background-size: cover;
   background-position: center;
   bottom: 2%;
@@ -2109,7 +2109,7 @@ body {
   width: 38vw;
   left: 45%;
   transform: translateX(-50%);
-  background-image: url(./p146.webp);
+  background-image: url(./p146.webp) !important;
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -2133,7 +2133,7 @@ body {
 .coinsp142 {
   height: 100%;
   width: 20%;
-  background-image: url(./p142.webp);
+  background-image: url(./p142.webp) !important;
   background-position: center;
   background-size: cover;
 }
@@ -2162,7 +2162,7 @@ body {
 #p15upper {
   height: 150vh;
   width: 100%;
-  background-image: url(./p151.webp);
+  background-image: url(./p151.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2233,7 +2233,7 @@ body {
 #fish1 {
   height: 56vh;
   width: 15vw;
-  background-image: url(p154.webp);
+  background-image: url(p154.webp) !important;
   top: 50%;
   left: 2%;
   scale: 1.2;
@@ -2243,7 +2243,7 @@ body {
   right: 10%;
   top: 50%;
   animation-duration: 1.5s;
-  background-image: url(p152.webp);
+  background-image: url(p152.webp) !important;
 }
 .bubblep15 {
   height: 3vw;
@@ -2251,7 +2251,7 @@ body {
   position: absolute;
   background-size: cover;
   background-position: center;
-  background-image: url(p153.webp);
+  background-image: url(p153.webp) !important;
   bottom: 0;
 }
 #bubble1 {
@@ -2324,7 +2324,7 @@ body {
   height: 80vh;
   background-size: cover;
   background-position: center;
-  background-image: url(p156.webp);
+  background-image: url(p156.webp) !important;
   width: 100vw;
   top: 0vh;
 }
@@ -2333,7 +2333,7 @@ body {
   height: 40vh;
   background-size: cover;
   background-position: center;
-  background-image: url(p157.webp);
+  background-image: url(p157.webp) !important;
   width: 100vw;
   bottom: 5vh;
 }
@@ -2341,7 +2341,7 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-image: url(./p158.svg);
+  background-image: url(./p158.svg) !important;
   background-size: cover;
   background-position: center;
   z-index: 8;
@@ -2395,7 +2395,7 @@ body {
   position: absolute;
   width: 130vw;
   right: -15vw;
-  background-image: url(p159.webp);
+  background-image: url(p159.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -2416,7 +2416,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(p6frame.webp);
+  background-image: url(p6frame.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -2427,7 +2427,7 @@ body {
   object-position: center;
 }
 #page16 button {
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -2440,7 +2440,7 @@ body {
   transition: all linear 0.2s;
 }
 #page16 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -2457,7 +2457,7 @@ body {
   height: 40vh;
   width: 60vw;
   position: absolute;
-  background-image: url(cloud.webp);
+  background-image: url(cloud.webp) !important;
   background-size: cover;
 }
 #p16c1 {
@@ -2534,29 +2534,29 @@ body {
   font-family: font4;
 }
 #p171img {
-  background-image: url(p171.webp);
+  background-image: url(p171.webp) !important;
 }
 #p172img {
-  background-image: url(p173.webp);
+  background-image: url(p173.webp) !important;
 }
 #p173img {
-  background-image: url(p176.webp);
+  background-image: url(p176.webp) !important;
 }
 #p174img {
-  background-image: url(p172.webp);
+  background-image: url(p172.webp) !important;
 }
 #p175img {
-  background-image: url(p174.webp);
+  background-image: url(p174.webp) !important;
 }
 #p176img {
   height: 52%;
   width: 36%;
-  background-image: url(p175.webp);
+  background-image: url(p175.webp) !important;
 }
 #p171 {
   height: 10vh;
   width: 10vh;
-  background-image: url(p179.webp);
+  background-image: url(p179.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2571,7 +2571,7 @@ body {
   width: 10vh;
   /* z-index: -9; */
   opacity: 0.7;
-  background-image: url(p1710.webp);
+  background-image: url(p1710.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2585,7 +2585,7 @@ body {
   height: 10vh;
   width: 10vh;
   opacity: 0.7;
-  background-image: url(p142.webp);
+  background-image: url(p142.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2599,7 +2599,7 @@ body {
   opacity: 0.7;
   height: 20vh;
   width: 13vh;
-  background-image: url(p177.webp);
+  background-image: url(p177.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2613,7 +2613,7 @@ body {
   opacity: 0.7;
   height: 10vh;
   width: 14vh;
-  background-image: url(p104.webp);
+  background-image: url(p104.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2626,7 +2626,7 @@ body {
 #p176 {
   height: 10vh;
   width: 14vh;
-  background-image: url(p104.webp);
+  background-image: url(p104.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2639,7 +2639,7 @@ body {
 #p177 {
   height: 10vh;
   width: 10vh;
-  background-image: url(nav3.webp);
+  background-image: url(nav3.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2652,7 +2652,7 @@ body {
   height: 10vh;
   width: 10vh;
   opacity: 0.7;
-  background-image: url(nav3.webp);
+  background-image: url(nav3.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2666,7 +2666,7 @@ body {
   height: 12vh;
   width: 12vh;
   opacity: 0.7;
-  background-image: url(p178.webp);
+  background-image: url(p178.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2679,7 +2679,7 @@ body {
 #p1710 {
   height: 12vh;
   width: 12vh;
-  background-image: url(p178.webp);
+  background-image: url(p178.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2713,7 +2713,7 @@ body {
 #p18boat {
   height: 100vh;
   width: 67vw;
-  background-image: url(./p181.webp);
+  background-image: url(./p181.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2726,7 +2726,7 @@ body {
 #p18boat {
   height: 100vh;
   width: 67vw;
-  background-image: url(./p181.webp);
+  background-image: url(./p181.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2748,7 +2748,7 @@ body {
   /* background-color: red; */
   background-size: cover;
   background-position: center;
-  background-image: url(p183.webp);
+  background-image: url(p183.webp) !important;
   scale: 1.4;
 }
 #clickp18 {
@@ -2766,7 +2766,7 @@ body {
   font-family: font4;
   line-height: 1;
   text-align: center;
-  background-image: url(p145.webp);
+  background-image: url(p145.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -2810,7 +2810,7 @@ body {
   position: relative;
   height: 22vh;
   width: 16vh;
-  background-image: url(p184.webp);
+  background-image: url(p184.webp) !important;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -2838,20 +2838,20 @@ body {
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-  background-image: url(p185.webp);
+  background-image: url(p185.webp) !important;
 }
 #p183 {
-  background-image: url(p186.webp);
+  background-image: url(p186.webp) !important;
 }
 #p185 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  background-image: url(p186.webp);
+  background-image: url(p186.webp) !important;
 }
 #p186 {
-  background-image: url(p185.webp);
+  background-image: url(p185.webp) !important;
 }
 
 /* ---------------------page19 starts here------------------ */
@@ -2892,7 +2892,7 @@ body {
 .p19img {
   height: 90%;
   width: 32vw;
-  background-image: url(p192.webp);
+  background-image: url(p192.webp) !important;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -2908,7 +2908,7 @@ body {
 .p19box {
   height: 100%;
   width: 40vw;
-  background-image: url(p193.webp);
+  background-image: url(p193.webp) !important;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -2946,7 +2946,7 @@ body {
   position: absolute;
   /* background-color: green; */
   left: -10%;
-  background-image: url(./p191.webp);
+  background-image: url(./p191.webp) !important;
   background-position: center;
   background-size: cover;
   height: 2vh;
@@ -2999,7 +2999,7 @@ body {
 #p20c1 {
   height: 35vh;
   width: 50vw;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-position: right;
   background-size: cover;
   position: absolute;
@@ -3010,7 +3010,7 @@ body {
 #p20c2 {
   height: 35vh;
   width: 50vw;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-position: left;
   background-size: cover;
   position: absolute;
@@ -3037,7 +3037,7 @@ body {
   left: 0vh;
   position: absolute;
   /* background-color: red; */
-  background-image: url(p103.webp);
+  background-image: url(p103.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -3053,7 +3053,7 @@ body {
   scale: 1.2;
   /* rotate: -4deg; */
   /* opacity: .6; */
-  background-image: url(./p201.webp);
+  background-image: url(./p201.webp) !important;
 }
 #p201 {
   height: 7vh;
@@ -3062,7 +3062,7 @@ body {
   left: 33%;
   /* rotate: 20deg; */
   transform-origin: 50% 50%;
-  background-image: url(p202.webp);
+  background-image: url(p202.webp) !important;
   background-position: center;
   background-size: cover;
 }
@@ -3078,7 +3078,7 @@ body {
   z-index: 99;
   /* rotate: 20deg; */
   transform-origin: 50% 50%;
-  background-image: url(p204.webp);
+  background-image: url(p204.webp) !important;
   background-position: center;
   background-size: cover;
 }
@@ -3088,7 +3088,7 @@ body {
   right: 34%;
   z-index: 8;
   top: 54%;
-  background-image: url(./p203.webp);
+  background-image: url(./p203.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -3099,7 +3099,7 @@ body {
   right: 34%;
   z-index: 8;
   top: 54%;
-  background-image: url(./p203.webp);
+  background-image: url(./p203.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -3110,14 +3110,14 @@ body {
   height: 250vh;
   width: 100vw;
   position: relative;
-  background-image: url(p14main.webp);
+  background-image: url(p14main.webp) !important;
   background-size: cover;
   background-position: bottom;
 }
 #p21upper {
   height: 20vh;
   width: 100vw;
-  background-image: url(p141.webp);
+  background-image: url(p141.webp) !important;
   background-size: cover;
   background-position: top;
   position: absolute;
@@ -3238,7 +3238,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20% 0;
-  background-image: url(./p214.svg);
+  background-image: url(./p214.svg) !important;
 }
 .p21mid p {
   font-size: 1.3vw;
@@ -3256,7 +3256,7 @@ body {
   /* transform: translateX(-50%); */
 }
 #p21bottom button {
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -3271,7 +3271,7 @@ body {
   transition: all linear 0.2s;
 }
 #p21bottom button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -3299,7 +3299,7 @@ body {
   height: 110vh;
   position: absolute;
   width: 80vw;
-  background-image: url(./p221.webp);
+  background-image: url(./p221.webp) !important;
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -3373,7 +3373,7 @@ body {
   animation-duration: 1.5s;
   animation-direction: alternate;
   animation-timing-function: linear;
-  background-image: url(p222.webp);
+  background-image: url(p222.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -3473,7 +3473,7 @@ body {
   align-items: center;
   justify-content: space-around;
   position: relative;
-  background-image: url(page2bg.webp);
+  background-image: url(page2bg.webp) !important;
   background-size: cover;
   background-position: bottom;
 }
@@ -3492,14 +3492,14 @@ body {
 #p24img1{
   height: 15vh;
   width: 100vw;
-  background-image: url(p141.webp);
+  background-image: url(p141.webp) !important;
   top: -10vh;
   background-size: cover;
   background-position: top;
   position: absolute;
 }
 #page24 button {
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -3512,7 +3512,7 @@ body {
   transition: all linear 0.2s;
 }
 #page24 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -3524,7 +3524,7 @@ body {
   top: 5vw;
   height: 95vh;
   width: 29vw;
-  background-image: url(p177.webp);
+  background-image: url(p177.webp) !important;
   background-position: center;
   background-size: cover;
 }
@@ -3554,7 +3554,7 @@ body {
 #p25left{
   height: 60vh;
   width: 38vh;
-  background-image: url(p242.webp);
+  background-image: url(p242.webp) !important;
   background-size: cover;
   position: relative;
   background-position: center;
@@ -3612,7 +3612,7 @@ text-decoration: none;
   height: 20vh;
   width: 20vh;
   /* background-color: grey; */
-  background-image: url(./p241.webp);
+  background-image: url(./p241.webp) !important;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -3688,12 +3688,12 @@ right: 15%;
   #loverlay {
     height: 100%;
     width: 100%;
-    background-image: url(./noise.gif);
+    background-image: url(./noise.gif) !important;
     opacity: 0.1;
     position: absolute;
   }
   #limage {
-    background-image: url(./nav3.webp);
+    background-image: url(./nav3.webp) !important;
     background-size: cover;
     background-position: center;
     height: 20vw;
@@ -3757,7 +3757,7 @@ right: 15%;
     top: 50%;
     transform: translate(-50%,-50%);
     /* background-color: grey; */
-    background-image: url(hijack\ img.webp);
+    background-image: url(hijack\ img.webp) !important;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -3812,7 +3812,7 @@ right: 15%;
     position: absolute;
     height: 10vw;
     width: 10vw;
-    background-image: url(./p241.webp);
+    background-image: url(./p241.webp) !important;
     background-size: cover;
     background-position: center;
     /* display: flex; */
@@ -3856,7 +3856,7 @@ right: 15%;
   #nav {
     height: 30vh;
     width: 100vw;
-    background-image: url(./cloud.webp);
+    background-image: url(./cloud.webp) !important;
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -3898,7 +3898,7 @@ right: 15%;
     transform: translateX(-50%);
     height: 15vw;
     width: 15vw;
-    background-image: url(./nav1.webp);
+    background-image: url(./nav1.webp) !important;
     z-index: 999;
     background-size: cover;
     cursor: pointer;
@@ -3917,7 +3917,7 @@ right: 15%;
     top: 20%;
     opacity: 1;
     position: absolute;
-    background-image: url(./nav4.webp);
+    background-image: url(./nav4.webp) !important;
     background-size: cover;
     background-position: center;
   }
@@ -3948,7 +3948,7 @@ right: 15%;
     position: absolute;
     top: 170%;
     left: -40%;
-    background-image: url(nav2.webp);
+    background-image: url(nav2.webp) !important;
     background-size: cover;
     background-position: center;
   }
@@ -3963,7 +3963,7 @@ right: 15%;
     height: 100%;
     position: absolute;
     width: 100%;
-    background-image: url(./noise.gif);
+    background-image: url(./noise.gif) !important;
     opacity: 0.1;
     z-index: 99;
   }
@@ -3987,7 +3987,7 @@ right: 15%;
     position: absolute;
     left: -19rem;
     top: 27rem;
-    background-image: url(./cloud.webp);
+    background-image: url(./cloud.webp) !important;
     background-size: cover;
     background-position: right;
   }
@@ -3997,7 +3997,7 @@ right: 15%;
     position: absolute;
     top: 27rem;
     right: -19rem;
-    background-image: url(./cloud.webp);
+    background-image: url(./cloud.webp) !important;
     background-size: cover;
     background-position: left;
   }
@@ -4027,7 +4027,7 @@ right: 15%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    background-image: url(./button1.webp);
+    background-image: url(./button1.webp) !important;
     background-size: cover;
     background-position: center;
     border: none;
@@ -4041,7 +4041,7 @@ right: 15%;
     transition: all linear 0.2s;
   }
   #page1 button:hover {
-    background-image: url(./button2.webp);
+    background-image: url(./button2.webp) !important;
     color: #ccc0aa;
     transition: all linear 0.2s;
   }
@@ -4056,7 +4056,7 @@ right: 15%;
   #p1boat {
     height: 13vh;
     width: 25vh;
-    background-image: url(./p1boat.webp);
+    background-image: url(./p1boat.webp) !important;
     background-size: cover;
     background-position: center;
     /* background-color: red; */
@@ -4078,7 +4078,7 @@ right: 15%;
   overflow: hidden;
   height: 125vh;
   width: 100%;
-  background-image: url(./page2bg.webp);
+  background-image: url(./page2bg.webp) !important;
   background-size: cover;
   background-position: right;
   position: relative;
@@ -4087,7 +4087,7 @@ right: 15%;
 .shutterp1 {
   height: 30vh;
   width: 27vh;
-  background-image: url(./shutterstock.webp);
+  background-image: url(./shutterstock.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -4152,7 +4152,7 @@ right: 15%;
   position: absolute;
   bottom: 30vh;
   opacity: 0.5;
-  background-image: url(./p3w2.webp);
+  background-image: url(./p3w2.webp) !important;
   background-size: cover;
   background-position: center;
   /* z-index: -9; */
@@ -4181,7 +4181,7 @@ right: 15%;
   height: 100%;
   width: 70%;
   /* z-index: ; */
-  background-image: url(./p3boat.webp);
+  background-image: url(./p3boat.webp) !important;
   background-position: right;
   background-size: 130%;
   background-repeat: no-repeat;
@@ -4210,7 +4210,7 @@ right: 15%;
   left: -13%;
   position: absolute;
   bottom: 24vh !important;
-  background-image: url(./p3w1.webp);
+  background-image: url(./p3w1.webp) !important;
   background-size: cover;
   background-position: center;
   animation-name: p3motion2;
@@ -4270,7 +4270,7 @@ right: 15%;
   left: 60%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -4284,7 +4284,7 @@ right: 15%;
   transition: all linear 0.2s;
 }
 #page3 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
   z-index: 999;
@@ -4301,7 +4301,7 @@ right: 15%;
   position: absolute;
   height: 10vh;
   width: 15vh;
-  background-image: url(./p41.webp);
+  background-image: url(./p41.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4313,7 +4313,7 @@ right: 15%;
   position: absolute;
   height: 13vh;
   width: 18vh;
-  background-image: url(./p42.webp);
+  background-image: url(./p42.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4325,7 +4325,7 @@ right: 15%;
   position: absolute;
   height: 13vh;
   width: 18vh;
-  background-image: url(./p43.webp);
+  background-image: url(./p43.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4337,7 +4337,7 @@ right: 15%;
   position: absolute;
   height: 13vh;
   width: 18vh;
-  background-image: url(./p44.webp);
+  background-image: url(./p44.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4349,7 +4349,7 @@ right: 15%;
   position: absolute;
   height: 10vh;
   width: 15vh;
-  background-image: url(./p45.webp);
+  background-image: url(./p45.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4361,7 +4361,7 @@ right: 15%;
   position: absolute;
   height: 11vh;
   width: 15vh;
-  background-image: url(./p46.webp);
+  background-image: url(./p46.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4402,7 +4402,7 @@ right: 15%;
   position: absolute;
   left: 50%;
   bottom: 20vh;
-  background-image: url(./p4main1.jpg);
+  background-image: url(./p4main1.jpg) !important;
   background-size: cover;
   background-position: center;
   transform: translateX(-50%);
@@ -4414,7 +4414,7 @@ display: none;
   position: absolute;
   height: 11vh;
   width: 15vh;
-  background-image: url(./p46.webp);
+  background-image: url(./p46.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: red; */
@@ -4442,42 +4442,42 @@ display: none;
   right: 3%;
   scale: 1.3;
   opacity: 0.7;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.png) !important;
 }
 #p52 {
   top: 30%;
   right: 10%;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.png) !important;
 }
 #p53 {
   top: 55%;
   right: 20%;
   scale: 1.5;
-  background-image: url(./kiss1.png);
+  background-image: url(./kiss1.png) !important;
 }
 #p54 {
   top: 40%;
   left: 20%;
   opacity: 0.5;
   scale: 1.4;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
 }
 #p55 {
   scale: 0.8;
   top: 0%;
   left: 10%;
   opacity: 0;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
 }
 #p56 {
   top: 60%;
   left: 3%;
   scale: 0.8;
   opacity: 0.9;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
 }
 #p57 {
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
   scale: 1.5;
   left: 50%;
   top: 10%;
@@ -4485,7 +4485,7 @@ display: none;
   transform: translateX(-50%);
 }
 #p58 {
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
   scale: 1.5;
   left: 30%;
   bottom: 15%;
@@ -4526,7 +4526,7 @@ display: none;
   width: 45vh;
   height: 27vh;
   top: 30%;
-  background-image: url(./p6gif.gif);
+  background-image: url(./p6gif.gif) !important;
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -4538,7 +4538,7 @@ display: none;
   width: 47vh;
   height: 32vh;
   top: 28%;
-  background-image: url(./p6frame.webp);
+  background-image: url(./p6frame.webp) !important;
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -4552,7 +4552,7 @@ display: none;
   bottom: 20%;
   position: absolute;
   /* background-color: red; */
-  background-image: url(cloud.webp);
+  background-image: url(cloud.webp) !important;
   background-size: cover;
   background-position: right;
   z-index: 9;
@@ -4564,7 +4564,7 @@ display: none;
   top: 5%;
   position: absolute;
   /* background-color: red; */
-  background-image: url(cloud.webp);
+  background-image: url(cloud.webp) !important;
   background-size: cover;
   background-position: left;
   z-index: 9;
@@ -4573,7 +4573,7 @@ display: none;
   height: 7vw;
   width: 10vw;
   /* background-color: red; */
-  background-image: url(kiss1.png);
+  background-image: url(kiss1.png) !important;
   background-size: cover;
   background-position: center;
   left: 45%;
@@ -4585,7 +4585,7 @@ display: none;
   height: 10vw;
   width: 13vw;
   /* background-color: red; */
-  background-image: url(kiss2.png);
+  background-image: url(kiss2.png) !important;
   background-size: cover;
   background-position: center;
   left: 60%;
@@ -4607,7 +4607,7 @@ display: none;
   width: 20vh;
   position: absolute;
   right: 5%;
-  background-image: url(p7img.webp);
+  background-image: url(p7img.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -4673,7 +4673,7 @@ display: none;
   left: 45%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -4687,7 +4687,7 @@ display: none;
   transition: all linear 0.2s;
 }
 #page7 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -4751,60 +4751,60 @@ display: none;
   }
 }
 #c1 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 10%;
   left: 20%;
 }
 #c2 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 60%;
   left: 25%;
 }
 #c3 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 35%;
   left: 5%;
   scale: 1.4;
 }
 #c4 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 70%;
   left: 2%;
 }
 #c5 {
-  background-image: url(./chick1.webp);
+  background-image: url(./chick1.webp) !important;
   top: 5%;
   left: 2%;
 }
 #c6 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 10%;
   right: 20%;
 }
 #c7 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 60%;
   right: 25%;
   scale: 1.4;
 }
 #c8 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 35%;
   right: 15%;
 }
 #c9 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 70%;
   right: 2%;
 }
 #c10 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   top: 5%;
   right: 2%;
   scale: 1.4;
 }
 #c11 {
-  background-image: url(./chick2.webp);
+  background-image: url(./chick2.webp) !important;
   scale: 0.8;
   top: 35%;
   right: 0%;
@@ -4843,7 +4843,7 @@ display: none;
 #p9k1 {
   height: 10vh;
   width: 20vw;
-  background-image: url(kiss1.png);
+  background-image: url(kiss1.png) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -4859,7 +4859,7 @@ display: none;
   left: 12%;
   top: 35%;
   rotate: 10deg;
-  background-image: url(p9img2.webp);
+  background-image: url(p9img2.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -4871,7 +4871,7 @@ display: none;
   left: 10%;
   top: 36%;
   rotate: 10deg;
-  background-image: url(./p6frame.webp);
+  background-image: url(./p6frame.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -4882,7 +4882,7 @@ display: none;
   position: absolute;
   right: 10%;
   top:55%;
-  background-image: url(./p9img1.webp);
+  background-image: url(./p9img1.webp) !important;
   background-size: cover;
   background-position: center;
   /* background-color: grey; */
@@ -4890,7 +4890,7 @@ display: none;
 #p9skullkiss {
   height: 5vh;
   width: 12vw;
-  background-image: url(./kiss2.png);
+  background-image: url(./kiss2.png) !important;
   position: absolute;
   right: 45%;
   top: 57%;
@@ -4906,7 +4906,7 @@ display: none;
   left: 10%;
   top: 75%;
   rotate: 10deg;
-  background-image: url(p9img4.gif);
+  background-image: url(p9img4.gif) !important;
   background-size: cover;
   background-position: center;
 }
@@ -4918,7 +4918,7 @@ display: none;
   left: 10%;
   top: 75%;
   rotate: 10deg;
-  background-image: url(./p6frame.webp);
+  background-image: url(./p6frame.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -4928,7 +4928,7 @@ display: none;
   right: 0;
   /* background-color: red; */
   position: absolute;
-  background-image: url(p9img3.webp);
+  background-image: url(p9img3.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -5022,7 +5022,7 @@ display: none;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -5036,7 +5036,7 @@ display: none;
   transition: all linear 0.2s;
 }
 #page10 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -5049,7 +5049,7 @@ display: none;
   left: -10%;
   top: 35%;
   /* background-color: red; */
-  background-image: url(./p10tree.webp);
+  background-image: url(./p10tree.webp) !important;
   background-size: cover;
   background-position: center;
   transform-origin: 50%, 50%;
@@ -5076,7 +5076,7 @@ display: none;
   width: 45vh;
   height: 15vh;
   /* background-color: red; */
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -5088,7 +5088,7 @@ display: none;
   width: 45vh;
   height: 15vh;
   /* background-color: red; */
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -5101,7 +5101,7 @@ display: none;
   transform: translateX(-50%);
   height: 15vh;
   /* background-color: red; */
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: center;
   z-index: 99;
@@ -5113,7 +5113,7 @@ display: none;
   position: absolute;
   right: 10%;
   bottom: 30%;
-  background-image: url(./p104.webp);
+  background-image: url(./p104.webp) !important;
   background-size: cover;
   background-position: center;
   transform-origin: 50%, 50%;
@@ -5153,7 +5153,7 @@ display: none;
   /* background-color: red; */
   background-position: center;
   background-size: cover;
-  background-image: url(./p101.webp);
+  background-image: url(./p101.webp) !important;
   bottom: 15%;
   position: absolute;
 }
@@ -5163,7 +5163,7 @@ display: none;
   left: 20%;
   rotate: 115deg;
   transition: all linear 1s;
-  background-image: url(./p103.webp);
+  background-image: url(./p103.webp) !important;
   background-size: cover;
   background-position: center;
   bottom: 27%;
@@ -5198,7 +5198,7 @@ display: none;
   height: 48vh;
   width:20vh;
   transition: all linear 2s;
-  background-image: url(./p102.webp);
+  background-image: url(./p102.webp) !important;
   background-size: cover;
   background-position: bottom;
   position: absolute;
@@ -5215,7 +5215,7 @@ display: none;
   z-index: 99;
   position: absolute;
   background-size: cover;
-  background-image: url(./p10water.webp);
+  background-image: url(./p10water.webp) !important;
 }
 
 /* ---------------------page11 starts here------------------ */
@@ -5263,7 +5263,7 @@ display: none;
   top: 35%;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url(./p111.webp);
+  background-image: url(./p111.webp) !important;
 }
 #cp112 {
   height: 27vh;
@@ -5276,7 +5276,7 @@ display: none;
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p112.webp);
+  background-image: url(./p112.webp) !important;
 }
 #cp113 {
   height: 39vh;
@@ -5289,7 +5289,7 @@ display: none;
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p117.webp);
+  background-image: url(./p117.webp) !important;
 }
 #cp114 {
   height: 10vh;
@@ -5302,14 +5302,14 @@ display: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(./p116.webp);
+  background-image: url(./p116.webp) !important;
   /* display: none; */
 }
 .p11c {
   height: 40vh;
   width: 30vh;
   position: absolute;
-  background-image: url(./p113.webp);
+  background-image: url(./p113.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -5374,7 +5374,7 @@ display: none;
   position: absolute;
   height: 20vh;
   width: 100%;
-  background-image: url(./p121.webp);
+  background-image: url(./p121.webp) !important;
   background-size: cover;
   background-position: center;
   top: -10%;
@@ -5383,7 +5383,7 @@ display: none;
   height: 20vh;
   width: 40vh;
   /* background-color: red; */
-  background-image: url(./p122.webp);
+  background-image: url(./p122.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -5428,28 +5428,28 @@ display: none;
   /* background-color: grey; */
 }
 #imgp121 {
-  background-image: url(./p123.webp);
+  background-image: url(./p123.webp) !important;
 }
 #imgp122 {
-  background-image: url(./p124.webp);
+  background-image: url(./p124.webp) !important;
 }
 #imgp123 {
-  background-image: url(./p125.webp);
+  background-image: url(./p125.webp) !important;
 }
 #imgp124 {
-  background-image: url(./p126.webp);
+  background-image: url(./p126.webp) !important;
 }
 #imgp125 {
-  background-image: url(./p127.webp);
+  background-image: url(./p127.webp) !important;
 }
 #imgp126 {
-  background-image: url(./p128.webp);
+  background-image: url(./p128.webp) !important;
 }
 #imgp127 {
-  background-image: url(./p129.webp);
+  background-image: url(./p129.webp) !important;
 }
 #imgp128 {
-  background-image: url(./p1210.webp);
+  background-image: url(./p1210.webp) !important;
 }
 
 /* ---------------------page13 starts here------------------ */
@@ -5472,7 +5472,7 @@ display: none;
 #p13img {
   height: 25vh;
   width: 40vh;
-  background-image: url(./p6frame.webp);
+  background-image: url(./p6frame.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -5487,7 +5487,7 @@ display: none;
   left: 49%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(p131.gif);
+  background-image: url(p131.gif) !important;
   background-size: cover;
   background-position: center;
 }
@@ -5495,7 +5495,7 @@ display: none;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -5509,7 +5509,7 @@ display: none;
   transition: all linear 0.2s;
 }
 #page13 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -5520,7 +5520,7 @@ display: none;
   left: -50%;
   top: 10%;
   z-index: 9;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: right;
 }
@@ -5531,7 +5531,7 @@ display: none;
   top: 30%;
   z-index: 9;
   width: 59vh;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-size: cover;
   background-position: left;
 }
@@ -5543,7 +5543,7 @@ display: none;
   position: relative;
   width: 100vw;
   color: #ad9d7f;
-  background-image: url(./p14main.webp);
+  background-image: url(./p14main.webp) !important;
   background-size: cover;
   background-position: bottom;
 }
@@ -5552,7 +5552,7 @@ display: none;
   position: absolute;
   top: -2%;
   width: 100vw;
-  background-image: url(./p141.webp);
+  background-image: url(./p141.webp) !important;
   background-size: cover;
   background-position: top;
 }
@@ -5563,7 +5563,7 @@ display: none;
   transform: translate(-50%, -50%);
   height: 36vh;
   width: 100vw;
-  background-image: url(./p144.webp);
+  background-image: url(./p144.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -5610,7 +5610,7 @@ display: none;
   height: 8vh;
   width: 8vh;
   position: absolute;
-  background-image: url(./p142.webp);
+  background-image: url(./p142.webp) !important;
   background-position: center;
   background-size: cover;
   animation-name: p14motion;
@@ -5694,14 +5694,14 @@ display: none;
   bottom: -20%;
   right: 0%;
   font-size: 1.5vh;
-  background-image: url(./p145.webp);
+  background-image: url(./p145.webp) !important;
 }
 #p14img2 {
   height: 35vw;
   width: 45vw;
   left: 45%;
   transform: translateX(-50%);
-  background-image: url(./p148.webp);
+  background-image: url(./p148.webp) !important;
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -5715,7 +5715,7 @@ display: none;
   height: 30%;
   width: 100%;
   position: absolute;
-  background-image: url(./p147.webp);
+  background-image: url(./p147.webp) !important;
   background-size: cover;
   background-position: center;
   bottom: 2%;
@@ -5726,7 +5726,7 @@ display: none;
   width: 48vw;
   left: 45%;
   transform: translateX(-50%);
-  background-image: url(./p146.webp);
+  background-image: url(./p146.webp) !important;
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -5750,7 +5750,7 @@ display: none;
 .coinsp142 {
   height: 100%;
   width: 20%;
-  background-image: url(./p142.webp);
+  background-image: url(./p142.webp) !important;
   background-position: center;
   background-size: cover;
 }
@@ -5780,7 +5780,7 @@ display: none;
 #p15upper {
   height: 70vh;
   width: 100%;
-  background-image: url(./p151.webp);
+  background-image: url(./p151.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -5852,7 +5852,7 @@ display: none;
 #fish1 {
   height: 15vh;
   width: 17vw;
-  background-image: url(p154.webp);
+  background-image: url(p154.webp) !important;
   top: 40%;
   left: 10%;
   scale: 1.2;
@@ -5862,7 +5862,7 @@ display: none;
   right: 2%;
   top: 50%;
   animation-duration: 1.5s;
-  background-image: url(p152.webp);
+  background-image: url(p152.webp) !important;
 }
 .bubblep15 {
   height: 3vw;
@@ -5870,7 +5870,7 @@ display: none;
   position: absolute;
   background-size: cover;
   background-position: center;
-  background-image: url(p153.webp);
+  background-image: url(p153.webp) !important;
   bottom: 0;
 }
 #bubble1 {
@@ -5943,7 +5943,7 @@ display: none;
   height: 80vh;
   background-size: cover;
   background-position: center;
-  background-image: url(p156.webp);
+  background-image: url(p156.webp) !important;
   width: 100vw;
   top: 0vh;
 }
@@ -5952,7 +5952,7 @@ display: none;
   height: 40vh;
   background-size: cover;
   background-position: center;
-  background-image: url(p157.webp);
+  background-image: url(p157.webp) !important;
   width: 100vw;
   bottom: 5vh;
 }
@@ -5960,7 +5960,7 @@ display: none;
   height: 100%;
   width: 100vw;
   position: absolute;
-  background-image: url(./p1588.webp);
+  background-image: url(./p1588.webp) !important;
   background-size: cover;
   background-position: center;
   z-index: 8;
@@ -6015,7 +6015,7 @@ display: none;
   position: absolute;
   width: 150vw;
   right: -12vw;
-  background-image: url(p159.webp);
+  background-image: url(p159.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -6038,7 +6038,7 @@ display: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(p6frame.webp);
+  background-image: url(p6frame.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -6049,7 +6049,7 @@ display: none;
   object-position: center;
 }
 #page16 button {
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -6062,7 +6062,7 @@ display: none;
   transition: all linear 0.2s;
 }
 #page16 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -6079,7 +6079,7 @@ display: none;
   height: 20vh;
   width: 100vw;
   position: absolute;
-  background-image: url(cloud.webp);
+  background-image: url(cloud.webp) !important;
   background-size: cover;
 }
 #p16c1 {
@@ -6167,29 +6167,29 @@ display: none;
   text-align: center;
 }
 #p171img {
-  background-image: url(p171.webp);
+  background-image: url(p171.webp) !important;
 }
 #p172img {
-  background-image: url(p173.webp);
+  background-image: url(p173.webp) !important;
 }
 #p173img {
-  background-image: url(p176.webp);
+  background-image: url(p176.webp) !important;
 }
 #p174img {
-  background-image: url(p172.webp);
+  background-image: url(p172.webp) !important;
 }
 #p175img {
-  background-image: url(p174.webp);
+  background-image: url(p174.webp) !important;
 }
 #p176img {
   height: 35%;
   width: 90%;
-  background-image: url(p175.webp);
+  background-image: url(p175.webp) !important;
 }
 #p171 {
   height: 5vh;
   width: 5vh;
-  background-image: url(p179.webp);
+  background-image: url(p179.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6204,7 +6204,7 @@ display: none;
   width: 5vh;
   /* z-index: -9; */
   opacity: 0.7;
-  background-image: url(p1710.webp);
+  background-image: url(p1710.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6218,7 +6218,7 @@ display: none;
   height: 7vh;
   width: 7vh;
   opacity: 0.7;
-  background-image: url(p142.webp);
+  background-image: url(p142.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6231,7 +6231,7 @@ display: none;
   opacity: 0.7;
   height: 14vh;
   width: 7vh;
-  background-image: url(p177.webp);
+  background-image: url(p177.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6245,7 +6245,7 @@ display: none;
   opacity: 0.7;
   height: 7vh;
   width: 9vh;
-  background-image: url(p104.webp);
+  background-image: url(p104.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6258,7 +6258,7 @@ display: none;
 #p176 {
   height: 7vh;
   width: 9vh;
-  background-image: url(p104.webp);
+  background-image: url(p104.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6271,7 +6271,7 @@ display: none;
 #p177 {
   height: 5vh;
   width: 5vh;
-  background-image: url(nav3.webp);
+  background-image: url(nav3.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6284,7 +6284,7 @@ display: none;
   height: 5vh;
   width: 5vh;
   opacity: 0.7;
-  background-image: url(nav3.webp);
+  background-image: url(nav3.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6298,7 +6298,7 @@ display: none;
   height: 6vh;
   width: 6vh;
   opacity: 0.7;
-  background-image: url(p178.webp);
+  background-image: url(p178.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6311,7 +6311,7 @@ display: none;
 #p1710 {
   height: 6vh;
   width: 6vh;
-  background-image: url(p178.webp);
+  background-image: url(p178.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6346,7 +6346,7 @@ display: none;
 #p18boat {
   height: 25vh;
   width: 70vw;
-  background-image: url(./p181.webp);
+  background-image: url(./p181.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6368,7 +6368,7 @@ display: none;
   /* background-color: red; */
   background-size: cover;
   background-position: center;
-  background-image: url(p183.webp);
+  background-image: url(p183.webp) !important;
   scale: 1.4;
 }
 #clickp18 {
@@ -6386,7 +6386,7 @@ display: none;
   font-family: font4;
   line-height: 1;
   text-align: center;
-  background-image: url(p145.webp);
+  background-image: url(p145.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -6432,7 +6432,7 @@ display: none;
   position: relative;
   height: 12vh;
   width: 10vh;
-  background-image: url(p184.webp);
+  background-image: url(p184.webp) !important;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -6460,7 +6460,7 @@ display: none;
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-  background-image: url(p185.webp);
+  background-image: url(p185.webp) !important;
 }
 #p182>h3{
   position: absolute;
@@ -6470,7 +6470,7 @@ display: none;
   text-align: center;
 }
 #p183 {
-  background-image: url(p186.webp);
+  background-image: url(p186.webp) !important;
 }
 #p183>h3{
   position: absolute;
@@ -6484,7 +6484,7 @@ display: none;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  background-image: url(p186.webp);
+  background-image: url(p186.webp) !important;
 }
 #p185>h3{
   position: absolute;
@@ -6494,7 +6494,7 @@ display: none;
   text-align: center;
 }
 #p186 {
-  background-image: url(p185.webp);
+  background-image: url(p185.webp) !important;
 }
 #p186>h3{
   position: absolute;
@@ -6542,7 +6542,7 @@ display: none;
 .p19img {
   height: 41%;
   width: 45vw;
-  background-image: url(p192.webp);
+  background-image: url(p192.webp) !important;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -6558,7 +6558,7 @@ display: none;
 .p19box {
   height: 40%;
   width: 55vw;
-  background-image: url(p193.webp);
+  background-image: url(p193.webp) !important;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -6597,7 +6597,7 @@ display: none;
   position: absolute;
   /* background-color: green; */
   left: -10%;
-  background-image: url(./p191.webp);
+  background-image: url(./p191.webp) !important;
   background-position: center;
   background-size: cover;
   height: 1vh;
@@ -6653,7 +6653,7 @@ display: none;
 #p20c1 {
   height: 20vh;
   width: 60vw;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-position: right;
   background-size: cover;
   position: absolute;
@@ -6664,7 +6664,7 @@ display: none;
 #p20c2 {
   height: 20vh;
   width: 60vw;
-  background-image: url(./cloud.webp);
+  background-image: url(./cloud.webp) !important;
   background-position: left;
   background-size: cover;
   position: absolute;
@@ -6692,7 +6692,7 @@ display: none;
   left: 0vh;
   position: absolute;
   /* background-color: red; */
-  background-image: url(p103.webp);
+  background-image: url(p103.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -6708,7 +6708,7 @@ display: none;
   scale: 1.2;
   /* rotate: -4deg; */
   /* opacity: .6; */
-  background-image: url(./p201.webp);
+  background-image: url(./p201.webp) !important;
 }
 #p201 {
   height: 2vh;
@@ -6717,7 +6717,7 @@ display: none;
   left: 33%;
   /* rotate: 20deg; */
   transform-origin: 50% 50%;
-  background-image: url(p202.webp);
+  background-image: url(p202.webp) !important;
   background-position: center;
   background-size: cover;
 }
@@ -6733,7 +6733,7 @@ display: none;
   z-index: 99;
   /* rotate: 20deg; */
   transform-origin: 50% 50%;
-  background-image: url(p204.webp);
+  background-image: url(p204.webp) !important;
   background-position: center;
   background-size: cover;
 }
@@ -6743,7 +6743,7 @@ display: none;
   right: 55%;
   z-index: 8;
   top: 68.5%;
-  background-image: url(./p203.webp);
+  background-image: url(./p203.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6754,7 +6754,7 @@ display: none;
   right: 55%;
   z-index: 8;
   top: 68.5%;
-  background-image: url(./p203.webp);
+  background-image: url(./p203.webp) !important;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -6765,14 +6765,14 @@ display: none;
   height: 250vh;
   width: 100vw;
   position: relative;
-  background-image: url(p14main.webp);
+  background-image: url(p14main.webp) !important;
   background-size: cover;
   background-position: bottom;
 }
 #p21upper {
   height: 20vh;
   width: 100vw;
-  background-image: url(p141.webp);
+  background-image: url(p141.webp) !important;
   background-size: cover;
   background-position: top;
   position: absolute;
@@ -6899,7 +6899,7 @@ display: none;
   flex-direction: column;
   padding: 10% 0;
   /* background-color: green; */
-  background-image: url(./p2144.svg);
+  background-image: url(./p2144.svg) !important;
 }
 .p21mid p {
   font-size: 1.4vh;
@@ -6917,7 +6917,7 @@ display: none;
   /* transform: translateX(-50%); */
 }
 #p21bottom button {
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -6932,7 +6932,7 @@ display: none;
   transition: all linear 0.2s;
 }
 #p21bottom button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -6959,7 +6959,7 @@ display: none;
   height: 28vh;
   position: absolute;
   width: 90vw;
-  background-image: url(./p221.webp);
+  background-image: url(./p221.webp) !important;
   background-position: center;
   background-size: cover;
   left: 50%;
@@ -7033,7 +7033,7 @@ display: none;
   animation-duration: 1.5s;
   animation-direction: alternate;
   animation-timing-function: linear;
-  background-image: url(p222.webp);
+  background-image: url(p222.webp) !important;
   background-size: cover;
   background-position: center;
 }
@@ -7133,7 +7133,7 @@ display: none;
   align-items: center;
   justify-content: space-around;
   position: relative;
-  background-image: url(page2bg.webp);
+  background-image: url(page2bg.webp) !important;
   background-size: cover;
   background-position: bottom;
 }
@@ -7157,14 +7157,14 @@ display: none;
 #p24img1{
   height: 15vh;
   width: 100vw;
-  background-image: url(p141.webp);
+  background-image: url(p141.webp) !important;
   top: 1vh;
   background-size: cover;
   background-position: top;
   position: absolute;
 }
 #page24 button {
-  background-image: url(./button1.webp);
+  background-image: url(./button1.webp) !important;
   background-size: cover;
   background-position: center;
   border: none;
@@ -7179,7 +7179,7 @@ display: none;
   top:75vh;
 }
 #page24 button:hover {
-  background-image: url(./button2.webp);
+  background-image: url(./button2.webp) !important;
   color: #ccc0aa;
   transition: all linear 0.2s;
 }
@@ -7192,7 +7192,7 @@ display: none;
   height: 60vh;
   width: 90vw;
   z-index: 99;
-  background-image: url(p177.webp);
+  background-image: url(p177.webp) !important;
   background-position: center;
   background-size: cover;
 }
@@ -7222,7 +7222,7 @@ display: none;
 #p25left{
   height: 31vh;
   width: 19vh;
-  background-image: url(p242.webp);
+  background-image: url(p242.webp) !important;
   background-size: cover;
   position: relative;
   background-position: center;
@@ -7280,7 +7280,7 @@ text-decoration: none;
   height: 15vh;
   width: 15vh;
   /* background-color: grey; */
-  background-image: url(./p241.webp);
+  background-image: url(./p241.webp) !important;
   background-size: cover;
   display: flex;
   align-items: center;
