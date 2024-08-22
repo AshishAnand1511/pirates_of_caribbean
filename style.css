@@ -38,31 +38,31 @@ body {
 /* ----------------loading starts here-------------- */
 @keyframes loadinganime {
   0% {
-    background-image: url(./nav3.webp) !important;
+    background-image: url(./nav3.webp);
   }
   15% {
-    background-image: url(./nav1.webp) !important;
+    background-image: url(./nav1.webp);
   }
   30% {
-    background-image: url(./nav3.webp) !important;
+    background-image: url(./nav3.webp);
   }
   45% {
-    background-image: url(./nav1.webp) !important;
+    background-image: url(./nav1.webp);
     top: 0;
   }
   60% {
-    background-image: url(./nav3.webp) !important;
+    background-image: url(./nav3.webp);
     top: 0;
   }
   75% {
-    background-image: url(./nav1.webp) !important;
+    background-image: url(./nav1.webp);
     top: 0;
   }
   87% {
-    background-image: url(./nav3.webp) !important;
+    background-image: url(./nav3.webp);
   }
   100% {
-    background-image: url(./nav1.webp) !important;
+    background-image: url(./nav1.webp);
   }
 }
 @keyframes loadup {
